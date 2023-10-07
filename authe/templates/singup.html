@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block body %}
+
+
+<!-- singup Start -->
+<div class="container-fluid py-5">
+    <div class="container">
+        <div class="row g-5">
+            <div class="col-xl-12 col-lg-6 wow slideInUp m-auto" data-wow-delay="0.3s">
+                <section class="p-5" style="background-color: #343a3f;">
+                    
+                    <div class="section-title text-center">
+                        <h1 class="display-9 mb-4">Sing UP</h1>
+                    </div>
+
+                    <form method = 'POST'>
+                        {% csrf_token %}
+                        <div class="row g-3">
+                            {% if messages %}
+                                <div class=" mx-auto col-12 p-3 fw-medium bg-danger bg-gradient rounded text-center " style="--bs-bg-opacity: .5;">
+                                        {% for message in messages %}
+                                            {{message}}
+                                        {% endfor %}
+                                </div>
+                            {% endif %}
+                            <div class="col-12">
+                                {% comment %} <input type="text" class="form-control border-0 bg-light px-4" placeholder="Your Name" style="height: 55px;">  {% endcomment %}
+                                {{form.username}}  
+                            </div>
+                            <div class="col-12">
+                                {% comment %} <input type="email" class="form-control border-0 bg-light px-4" placeholder="Your Email" style="height: 55px;">  {% endcomment %}
+                                {{form.email}}  
+                            </div>
+                            <div class="col-12">
+                                {% comment %} <input type="password" class="form-control border-0 bg-light px-4" placeholder="Subject" style="height: 55px;">  {% endcomment %}
+                                {{form.password1}}  
+                            </div>
+                            <div class="col-12">
+                                {% comment %} <input type="password" class="form-control border-0 bg-light px-4" placeholder="Your Name" style="height: 55px;">  {% endcomment %}
+                                {{form.password2}}  
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-primary w-100 py-3" type="submit">Sing up</button>
+                            </div>
+                        </div>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- singup End -->
+
+{% endblock body %}
+

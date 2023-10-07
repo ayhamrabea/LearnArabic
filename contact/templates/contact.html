@@ -1,0 +1,108 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load markdown_extras %}
+{% block title %}تواصل معنا{% endblock title %}
+{% block body %}
+
+<main class="container py-5">
+    <div class="row">
+
+        <div class="col-lg-8" data-bs-theme="dark" >
+            <section class="py-5" style="background-color: #343a3f;">
+                <div class="section-title text-center">
+                    <h1 class="text-primary ">КОНТАКТЫ</h1>
+                    <h2 class="display-9 mb-4">test</h2>
+                </div>
+
+                <div class="mx-3 wow slideInUp" data-wow-delay="0.3s">
+                    <form method = 'POST'>
+                        {% csrf_token %}
+                        <div class="row g-3">
+                            <div class="col-12">
+                                {% comment %} <input type="text" class="form-control border-0 bg-light px-4" placeholder="Your Name" style="height: 55px;"> {% endcomment %}
+                                {{form.name}}
+                            </div>
+                            <div class="col-12">
+                                {% comment %} <input type="email" class="form-control border-0 bg-light px-4" placeholder="Your Email" style="height: 55px;"> {% endcomment %}
+                                {{form.email}}
+                            </div>
+                            <div class="col-12">
+                                {% comment %} <input type="text" class="form-control border-0 bg-light px-4" placeholder="Subject" style="height: 55px;"> {% endcomment %}
+                                {{form.subject}}
+                            </div>
+                            <div class="col-12">
+                                {% comment %} <textarea class="form-control border-0 bg-light px-4 py-3" rows="5" placeholder="Message"></textarea> {% endcomment %}
+                                {{form.message}}
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-primary w-100 py-1 fs-2" type="submit">أرسال</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </section>
+
+
+        </div>
+
+        <!--START SideBAR-->
+        <div class="col-lg-4" data-bs-theme="dark">
+        
+            <!-- Side widget-->
+            <div class="card bg-body-tertiary mb-4 ">
+                <div class="card-header">перевод</div>
+                <div class="card-body ">
+                    <table class="table table-dark">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Арабский</th>
+                                <th scope="col">руский</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>الأسم</td> 
+                                <td>Имя</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>بريدك الألكتروني</td> 
+                                <td>ваш почта</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>الموضوع</td> 
+                                <td>тема</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">4</th>
+                                <td>الرسالة</td> 
+                                <td>сообшение</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="card bg-body-tertiary mb-4 ">
+                <div class="card-header">معلمومات عنا</div>
+                <div class="card-body" dir="ltr">
+                    <h6>почта: ayhamrabea05@gmail.com</h6>
+                    <h6>Телефон: +79127339081</h6>
+                    <h6>адрес: киров, московская 555</h6>
+
+
+                </div>
+            </div> 
+        </div>
+        <!-- END SideBAR-->
+
+
+
+    </div>
+</main>
+
+{% endblock body %}

@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load markdown_extras %}
+{% block title %}{{lesson_id.name}}{% endblock title %}
+{% block body %}
+
+<main class="container py-5">
+    <div class="row">
+
+        <div class="col-lg-8" data-bs-theme="dark" >
+            {{lesson_id.description | markdown |safe}}
+            
+            <a href="{% url 'detail_quiz' lesson_id.quiz.id %}" > <button class="btn btn-warning">بدء الأختبار</button> </a>
+        </div>
+
+        <!--START SideBAR-->
+        <div class="col-lg-4" data-bs-theme="dark">
+            <!-- Categories widget-->
+            <div class="mb-4 card  bg-body-tertiary">
+                <div class="row">
+                    {% for question in said_questions %}
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading{{question.id}}">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{question.id}}" aria-expanded="true" aria-controls="collapse{{question.id}}">
+                                    {{question.question}}
+                                    {{question.id}}
+                                </button>
+                                </h2>
+                                <div id="collapse{{question.id}}" class="accordion-collapse collapse" aria-labelledby="heading{{question.id}}" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    {{question.said_description}}
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+            <!--end Categories widget-->
+        
+            <!-- Side widget-->
+            <div class="card bg-body-tertiary mb-4 ">
+                <div class="card-header">перевод</div>
+                <div class="card-body ">
+                    <table class="table table-dark">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Арабский</th>
+                                <th scope="col">руский</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for word in words %}
+                            <tr>
+                                <th scope="row">{{word.lesson_word_id}}</th>
+                                <td>{{word.word_AR}}</td> 
+                                <td>{{word.word_RU}}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div> 
+        </div>
+        <!-- END SideBAR-->
+
+
+
+    </div>
+</main>
+
+{% endblock body %}

@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load markdown_extras %}
+
+
+{% block body %}
+
+<main class="container py-5">
+  <div class="row">
+
+    <div class="col-lg-7" data-bs-theme="dark" >
+
+      {% for lesson in lessons %}
+
+        <div class="card text-center mb-5">
+          <div class="card-header">
+            <ul class="nav nav-tabs card-header-tabs">
+              <li class="nav-item d-flex">
+                <a class="nav-link active" href="#">{{lesson.active}}</a>
+                <a class="nav-link disabled" href="#">{{lesson.leavel}}</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="card-body">
+            <h5 class="card-title"> {{lesson.name}}</h5>
+            <p class="card-text"> {{lesson.description |slice:20  | markdown |safe}}</p>
+            <a href="{% url 'detail_page' lesson.id %}" class="btn btn-success">ابدء الدرس</a>
+          </div>
+
+      </div>
+
+      {% endfor %}
+    </div>
+
+    <!--START SideBAR-->
+    {% include 'saibar.html' %}
+    <!-- END SideBAR-->
+
+
+  
+  
+  
+  </div>
+</main>
+
+{% endblock body %}
+
+
+
+
+
+
