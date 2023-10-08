@@ -8,8 +8,9 @@ admin.site.register(Quiz)
 class Answeradmin(admin.TabularInline):
     model = Answer
 
+
 class QuestionAdmin(admin.ModelAdmin):
-    inlines = [Answeradmin]
+    inlines = [Answeradmin ]
     class Meta:
         model = Question
 
@@ -17,3 +18,5 @@ class QuestionAdmin(admin.ModelAdmin):
 
 admin.site.register(Question,QuestionAdmin)
 admin.site.register(Answer)
+admin.site.register(Quiz_Said_question)
+admin.site.register(Quiz_words)

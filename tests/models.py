@@ -58,3 +58,36 @@ class Answer(models.Model):
         return self.answer
 
 
+
+
+class Quiz_Said_question(models.Model):
+
+    quiz = models.ForeignKey( Quiz ,on_delete=models.CASCADE, blank=True, null=True)
+    question = models.CharField(max_length=100, blank=True, null=True)
+    said_description = models.TextField( blank=True, null=True)
+
+
+    class Meta:
+        verbose_name = ("Quiz_Said_question")
+        verbose_name_plural = ("Quiz_Said_questions")
+
+    def __str__(self):
+        return self.question
+
+
+
+class Quiz_words(models.Model):
+
+    quiz = models.ForeignKey( Quiz ,on_delete=models.CASCADE, blank=True, null=True)
+    quiz_word_id = models.IntegerField(default=99, blank=True, null=True)
+    word_AR = models.CharField( max_length=50, blank=True, null=True)
+    word_RU = models.CharField( max_length=50, blank=True, null=True)
+
+
+    class Meta:
+        verbose_name = ("Quiz_words")
+        verbose_name_plural = ("Quiz_wordss")
+
+    def __str__(self):
+        return self.word_AR
+

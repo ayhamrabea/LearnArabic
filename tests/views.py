@@ -20,7 +20,8 @@ def detail_page(request,id):
     quiz = Quiz.objects.all()
     quiz_id = Quiz.objects.get(id=id)
     questions = Question.objects.filter(quiz=quiz_id)
-
+    said_questions = Quiz_Said_question.objects.filter(quiz=quiz_id)
+    words = Quiz_words.objects.filter(quiz=quiz_id)   
     
 
 
@@ -29,6 +30,8 @@ def detail_page(request,id):
         'quizes':quiz,
         'quiz_id':quiz_id,
         'questions':questions,
+        'said_questions':said_questions,
+        'words':words,
 
     }
 

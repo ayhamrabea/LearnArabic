@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 {% load static %}
 {% load markdown_extras %}
-{% block title %}{{lesson_id.name}}{% endblock title %}
+{% block title %}{{quiz_id.quiz_name}}{% endblock title %}
 
 {% block body %}
 
@@ -10,7 +10,8 @@
         <div class="col-lg-8" data-bs-theme="dark" >
             <div id="app" class="m-2">
                 <h2> quizes</h2>
-                <hr>                    
+                <hr> 
+                
                 <div v-for="question in questions"> 
                     <h3> [[question.question]]</h3>
                     <div class="form-check m-3" v-for="answer in question.answers">
@@ -21,8 +22,33 @@
                     </div>
                     <hr>        
                 </div>
-                <button class="btn btn-warning" onClick="app.showscore();">score</button>
-                <button class="btn btn-warning" onClick="window.location.reload();">Refresh</button>
+
+                <div>
+                    <button class="btn btn-outline-success p-2 m-3" onClick="app.showscore();">Show Score</button>
+                    <button class="btn btn-outline-warning p-2 m-3" onClick="window.location.reload();">Refresh</button>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Launch demo modal
+                    </button>                    
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                [[score]]
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div> 
 
@@ -75,7 +101,6 @@
                 return{
                     quiz_id : '{{quiz_id.id}}',
                     questions : [],
-                    
                 }
             }, 
             methods : {
@@ -104,7 +129,6 @@
             },
             created(){
                 this.getQuestions()
-                
             }
         });
     </script> 
