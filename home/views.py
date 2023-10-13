@@ -1,5 +1,7 @@
 from django.shortcuts import render
-from .models import Lesson , Said_question , Lesson_words
+from .models import Lesson , Said_question , Lesson_words , People_Ask
+import random
+
 # Create your views here.
 
 
@@ -7,8 +9,15 @@ def index(request):
 
     lesson = Lesson.objects.all()
 
+    # People_Ask model
+    questions = People_Ask.objects.all()
+    questions_objs = list(questions)
+    random.shuffle(questions_objs)
+
+
     context = {
-        'lessons':lesson 
+        'lessons':lesson,
+        'questions':questions_objs, 
     }
 
     return render(request,'index.html',context)

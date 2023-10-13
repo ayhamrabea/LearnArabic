@@ -22,33 +22,13 @@
                     </div>
                     <hr>        
                 </div>
-
                 <div>
                     <button class="btn btn-outline-success p-2 m-3" onClick="app.showscore();">Show Score</button>
                     <button class="btn btn-outline-warning p-2 m-3" onClick="window.location.reload();">Refresh</button>
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                        Launch demo modal
-                    </button>                    
-                    <!-- Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                [[score]]
-                            </div>
-                            <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
+                    <p id="mytest"></p>
                 </div>
+
+                
             </div>
         </div> 
 
@@ -117,21 +97,31 @@
                         for(var i=0; i < answers.length; i++){
                             if(answers[i].answer == event.target.value){
                                 if(answers[i].is_correct){
-                                    score++
+                                    score +=1
                                 }
                             }
                         }
                     })
                 },
                 showscore(){
-                    alert("your score is " + score);
-                },
+                    Swal.fire({
+                        title: 'your score is ' + score,
+                        showClass: {
+                            popup: 'animate__animated animate__fadeInDown'
+                        },
+                        hideClass: {
+                            popup: 'animate__animated animate__fadeOutUp'
+                        }
+                    })
+
+                }
             },
             created(){
                 this.getQuestions()
             }
         });
     </script> 
+    
 {% endblock body %}
 
 

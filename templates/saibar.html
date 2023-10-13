@@ -5,88 +5,21 @@
             
             <div class="accordion" id="accordionExample" >
 
-                <div class="accordion-item" >
-                    <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        В чем сложность изучения арабского языка
-                    </button>
-                    </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        <strong>Сложность арабского языка в том,</strong>  что в нем есть несколько групп звуков, которые для русского или европейского уха звучат практически одинаково. Например, в русском языке есть одна буква «С», а в арабском целых три буквы, схожие по звучанию с «С».
-                    </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        Что сложнее русский или арабский
-                    </button>
-                    </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        <strong>В соответствии с этим рейтингом,</strong> русский относится к группе «трудные языки», на его изучение требуется не менее 1100 часов, а самыми сложными языками для англоговорящих являются арабский, китайский, японский и корейский.
-                    </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        Сколько букв в арабском языке
-                    </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        <strong>Арабо-персидская письменность.</strong> Состоит из 28 букв и используется для письма справа налево. Происходит от набатейского письма, окончательно сложился в VI веке.
-                    </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="heading4">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
-                        Сколько букв в арабском языке
-                    </button>
-                    </h2>
-                    <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        <strong>Арабо-персидская письменность.</strong> Состоит из 28 букв и используется для письма справа налево. Происходит от набатейского письма, окончательно сложился в VI веке.
-                    </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="heading5">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
-                        Что проще китайский или арабский
-                    </button>
-                    </h2>
-                    <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        Если рассматривать только в контексте письменности, то, разумеется, арабский язык проще. Арабский алфавит содержит всего лишь 28 знаков, в то время, как китайский язык куда сложнее.                    </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="heading6">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
-                        Сколько слов нужно знать чтобы говорить на арабском языке
-                    </button>
-                    </h2>
-                    <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        Подобное число слов может показаться огромным и даже пугающим тому, кто начинает изучать арабский, но у нас для вас есть хорошие новости: вам нужно знать приблизительно 5% от общего числа слов, чтобы свободно говорить на арабском.                    </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="heading7">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
-                            На каком языке говорят в Дубаи
+                {% for question in questions|slice:":5"  %}
+                    <div class="accordion-item" >
+                        <h2 class="accordion-header" id="heading{{question.id}}">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{question.id}}" aria-expanded="true" aria-controls="collapse{{question.id}}">
+                            {{question.question}}
                         </button>
-                    </h2>
-                    <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="heading7" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        <strong>арабский.</strong> Официальным языком Объединённых Арабских Эмиратов является арабский. Английский язык широко используется в сфере бизнеса, деловой переписки и как средство межнационального общения.
+                        </h2>
+                        <div id="collapse{{question.id}}" class="accordion-collapse collapse" aria-labelledby="heading{{question.id}}" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            {{question.answer}}
+                        </div>
+                        </div>
                     </div>
-                    </div>
-                </div>
+                {% endfor %}
+
 
             </div>
         

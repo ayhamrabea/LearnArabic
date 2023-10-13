@@ -52,4 +52,18 @@ class Lesson_words(models.Model):
 
     def __str__(self):
         return self.word_AR
+    
+
+
+class People_Ask(models.Model):
+
+    question = models.CharField(max_length=250)
+    answer = models.TextField()
+    class Meta:
+
+        verbose_name = 'People_Ask'
+        verbose_name_plural = 'People_Asks'
+
+    def __str__(self):
+        return self.question
 
