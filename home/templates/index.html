@@ -3,6 +3,7 @@
 {% load markdown_extras %}
 
 
+
 {% block body %}
 
 <main class="container py-5">
@@ -23,8 +24,8 @@
           </div>
 
           <div class="card-body">
-            <h5 class="card-title"> {{lesson.name}}</h5>
-            <p class="card-text"> {{lesson.description |slice:20  | markdown |safe}}</p>
+            <h5 class="card-title text-success"> {{lesson.name}}</h5>
+            <p class="card-text"> {{lesson.description |slice:35  | markdown |safe}}</p>
             <a href="{% url 'detail_page' lesson.id %}" class="btn btn-success">ابدء الدرس</a>
           </div>
 
@@ -65,8 +66,16 @@
       <!--end Categories widget-->
       <!-- Side widget-->
       <div class="card bg-body-tertiary mb-4 ">
-          <div class="card-header">Side Widget</div>
-          <div class="card-body ">You can put anything you want inside of these side widgets. They are easy to use, and feature the Bootstrap 5 card component!</div>
+        <form method ='GET' name="audio"  >
+          <div class="input-group">
+            <input type="text" class="form-control" name="inpAudio" placeholder="">
+            <div class="input-group-prepend">
+              <input class="btn btn-outline-secondary" type="submit" value="button">
+            </div>
+            
+          </div>
+
+        </form>
       </div> 
     </div>
 

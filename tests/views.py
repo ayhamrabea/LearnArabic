@@ -5,7 +5,7 @@ import random
 # Create your views here.
 
 def home(request):
-    quiz = Quiz.objects.all()
+    quiz = Quiz.objects.all().order_by('id')
 
     context = {
         'quizes' : quiz

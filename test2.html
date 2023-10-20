@@ -1,0 +1,191 @@
+<!doctype html>
+
+<html lang="ar" dir="rtl">
+<head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.rtl.min.css" integrity="sha384-PRrgQVJ8NNHGieOA1grGdCTIt4h21CzJs6SnWH4YMQ6G5F5+IEzOHz67L4SQaF0o" crossorigin="anonymous">
+        <!-- font awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- my CSS -->
+        <link rel="stylesheet" href="{% static 'css/mystyle.css'%}">
+
+
+
+        <title>test</title>
+</head>
+<body data-bs-theme="dark">
+    <header class="mb-4 text-center bg-image header-image">
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary nav" data-bs-theme="dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">تعلم</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle link-success" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                مستخدم
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="{% url 'singup'%}">singup</a></li>
+                                <li><a class="dropdown-item" href="{% url 'login'%}">login</a></li>
+                            </ul>
+                        </li> 
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="{% url 'home' %}">الرئيسية</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">الدروس</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'quize' %}">اختبارات</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">قصص</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'contact' %}">تواصل معنا</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container py-5 ">
+            <div class="text-center  my-5 ">
+                <h1 class="fw-bolder text-white">Welcome to IT code</h1>
+            </div>
+        </div>
+
+    </header>
+
+    <main> 
+        <main>
+            <section class="p-4">
+
+                <div dir="ltr" class="w-100 m-auto  bg-gradient  border border-gradient p-3 mb-2 border-opacity-25"> 
+                    <h5></h5>
+                        <h3 dir="rtl">النكرة: كتاب</h3>
+                        <h3 dir="rtl">المعرفة  : <span class="text-success">الـ</span> + كتاب</h3>
+                        <h5 >Показателем определённого состояния существительного
+                            и прилагательного является определённый артикль [ал], кото
+                            рый ставится перед словом и пишется слитно с ним. При
+                            склонении слова в определённом состоянии рисунок слова во
+                            всех падежах одинаковый</h5>    
+                            <h3>['ал-кита:бу] книга الكِتَابُ</h3>   
+                            <h3>['ал-кита:ба] книгу الكِتابَ</h3>
+                            <h3>[ал-кита:би] (из, от, для…) книги الكِتابِ</h3>
+                </div>
+
+                <div dir="ltr" class="w-100 m-auto bg-gradient  border border-gradient p-3 mb-2 border-opacity-25"> 
+                    <h5>При присоединении к слову определённого артикля звук
+                        [л] в артикле в некоторых случаях ассимилируется с первым
+                        звуком слова, то есть уподобляется ему. По этому признаку
+                        буквы арабского алфавита делятся на две группы:<br> «солнеч
+                        ные», перед которыми артикль ассимилируется (как [ш] в сло
+                        ве[шамс] «солнце»),и «лунные», оставляющие звук [л]
+                        без изменения (как [к] в слове[камар] «луна») .<br> Что ка
+                        сается написания, то артикль изображается всегда одинаково:
+                        , а пре язношение в случае необходимости показывается
+                        огласовками:</h5>
+                        <h3>['аш-шамсу] солнце</h3>
+                        <h3>['ал-камару] луна</h3>
+                </div>
+
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th class="h2 p-4 m-auto text-center text-success" scope="col">اللام الشمسية<br>«солнечные» </th>
+                            <th class="h2 p-4 m-auto text-center text-success" scope="col">اللام القمرية<br>«лунные» </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><h3 class="p-2 m-auto text-center "><span class="text-success">(ت)</span> التفاح</h3></td>
+                            <td><h3 class="p-2 m-auto text-center "><span class="text-success">(أ)</span> اللّاعب</h3></td>
+                        </tr>
+                        <tr>
+                            <td><h3 class="p-2 m-auto text-center "><span class="text-success">(ث)</span> الثقافة </h3></td>
+                            <td><h3 class="p-2 m-auto text-center "><span class="text-success">(ب)</span> الْباب</h3></td>
+                        </tr>
+                        <tr>
+                            <td><h3 class="p-2 m-auto text-center "><span class="text-success">(د)</span> الدفتر</h3></td>
+                            <td><h3 class="p-2 m-auto text-center "><span class="text-success">(ج)</span> الْجامعة</h3></td>
+                        </tr>
+                        <tr>
+                            <td><h3 class="p-2 m-auto text-center "><span class="text-success">(ذ)</span> الذَّرَّة </h3></td>
+                            <td><h3 class="p-2 m-auto text-center "><span class="text-success">(ح)</span> الْحب</h3></td>
+                        </tr>
+                        <tr>
+                            <td><h3 class="p-2 m-auto text-center "><span class="text-success">(ر)</span> الربح   </h3></td>
+                            <td><h3 class="p-2 m-auto text-center "><span class="text-success">(خ)</span> الْخير</h3></td>
+                        </tr>
+                        <tr>
+                            <td><h3 class="p-2 m-auto text-center "><span class="text-success">(ز)</span> الزَّيارة</h3></td>
+                            <td><h3 class="p-2 m-auto text-center "><span class="text-success">(ع)</span> الْعين</h3></td>
+                        </tr>
+                        <tr>
+                            <td><h3 class="p-2 m-auto text-center "><span class="text-success">(س)</span> السرير</h3></td>
+                            <td><h3 class="p-2 m-auto text-center "><span class="text-success">(غ)</span> الْغرب</h3></td>
+                        </tr>
+                        <tr>
+                            <td><h3 class="p-2 m-auto text-center "><span class="text-success">(ش)</span> الشَّمس </h3></td>
+                            <td><h3 class="p-2 m-auto text-center "><span class="text-success">(ف)</span> الْفاكهة</h3></td>
+                        </tr>
+                        <tr>
+                            <td><h3 class="p-2 m-auto text-center "><span class="text-success">(ص)</span> الصدر</h3></td>
+                            <td><h3 class="p-2 m-auto text-center "><span class="text-success">(ق)</span> الْقلم</h3></td>
+                        </tr>
+                        <tr>
+                            <td><h3 class="p-2 m-auto text-center "><span class="text-success">(ض)</span> الضرب</h3></td>
+                            <td><h3 class="p-2 m-auto text-center "><span class="text-success">(ك)</span> الْكرسي</h3></td>
+                        </tr>
+                        <tr>
+                            <td><h3 class="p-2 m-auto text-center "><span class="text-success">(ط)</span> الّطَّبيب</h3></td>
+                            <td><h3 class="p-2 m-auto text-center "><span class="text-success">(م)</span> الْمدرسة</h3></td>
+                        </tr>
+                        <tr>
+                            <td><h3 class="p-2 m-auto text-center "><span class="text-success">(ظ)</span> الظلام </h3></td>
+                            <td><h3 class="p-2 m-auto text-center "><span class="text-success">(ه)</span> الْهاتف</h3></td>
+                        </tr>
+                        <tr>
+                            <td><h3 class="p-2 m-auto text-center "><span class="text-success">(ل)</span> اللواء </h3></td>
+                            <td><h3 class="p-2 m-auto text-center "><span class="text-success">(و)</span> الْورد</h3></td>
+                        </tr>
+                        <tr>
+                            <td><h3 class="p-2 m-auto text-center "><span class="text-success">(ن)</span> النار </h3></td>
+                            <td><h3 class="p-2 m-auto text-center "><span class="text-success">(ي)</span> الْيد</h3></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="text-center" style="background-color: rgba(0, 0, 0, 0.2);">
+    </footer>
+    <!-- Footer -->
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+        <script src="{% static 'js/Main.js' %}"></script>
+</body>
+</html>
