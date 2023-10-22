@@ -14,9 +14,9 @@
             <img style="width: 70%;" src="{{story_id.image.url}}" />
             {% endif %}
 
-            {% if story_id.audio %}
+            {% comment %} {% if story_id.audio %}
                 <audio controls ><source src="{{story_id.audio.url}}" type="audio/ogg"></audio>            
-            {% endif %}
+            {% endif %} {% endcomment %}
 
                 
             {% for parargraph in parargraphs %}
