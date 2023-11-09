@@ -30,41 +30,41 @@
         </div>
 
 
-        <!--START SideBAR-->
+        {% comment %} <!--START SideBAR-->
         <div class="col-lg-3" data-bs-theme="dark">
-        <!-- Categories widget-->
-        <div class="mb-4 card  bg-body-tertiary">
-            <div class="row">
-                
-                <div class="accordion" id="accordionExample" >
+            <!-- Categories widget-->
+            <div class="mb-4 card  bg-body-tertiary">
+                <div class="row">
+                    
+                    <div class="accordion" id="accordionExample" >
 
-                    {% for question in questions|slice:":5"  %}
-                        <div class="accordion-item" >
-                            <h2 class="accordion-header" id="heading{{question.id}}">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{question.id}}" aria-expanded="true" aria-controls="collapse{{question.id}}">
-                                {{question.question}}
-                            </button>
-                            </h2>
-                            <div dir="ltr" id="collapse{{question.id}}" class="accordion-collapse collapse" aria-labelledby="heading{{question.id}}" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    {{question.answer | markdown | safe }}
+                        {% for question in questions|slice:":5"  %}
+                            <div class="accordion-item" >
+                                <h2 class="accordion-header" id="heading{{question.id}}">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{question.id}}" aria-expanded="true" aria-controls="collapse{{question.id}}">
+                                    {{question.question}}
+                                </button>
+                                </h2>
+                                <div dir="ltr" id="collapse{{question.id}}" class="accordion-collapse collapse" aria-labelledby="heading{{question.id}}" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        {{question.answer | markdown | safe }}
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    {% endfor %}
+                        {% endfor %}
 
 
+                    </div>
+                
                 </div>
-            
             </div>
-        </div>
-        <!--end Categories widget-->
-        <!-- Side widget-->
-        <div class="card bg-body-tertiary mb-4 ">
-            <div class="card-header">Side Widget</div>
-            <div class="card-body ">You can put anything you want inside of these side widgets. They are easy to use, and feature the Bootstrap 5 card component!</div>
-        </div> 
-        </div>
+            <!--end Categories widget-->
+            <!-- Side widget-->
+            <div class="card bg-body-tertiary mb-4 ">
+                <div class="card-header">Side Widget</div>
+                <div class="card-body ">You can put anything you want inside of these side widgets. They are easy to use, and feature the Bootstrap 5 card component!</div>
+            </div> 
+        </div> {% endcomment %}
 
     <!-- END SideBAR-->
 

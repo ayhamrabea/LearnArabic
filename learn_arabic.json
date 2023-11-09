@@ -1,0 +1,5301 @@
+[
+    {
+        "model": "admin.logentry",
+        "pk": 0,
+        "fields": {
+            "action_time": "2023-11-04T05:50:10Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "0",
+            "object_repr": "ayham",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Quiz\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 1,
+        "fields": {
+            "action_time": "2023-10-07T23:04:41Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "1",
+            "object_repr": "lesson one",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 2,
+        "fields": {
+            "action_time": "2023-10-07T23:04:46Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "1",
+            "object_repr": "lesson onw",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Said_question\", \"object\": \"\\u0645\\u0627 \\u0647\\u0648 \\u0639\\u062f\\u062f \\u0627\\u0644\\u0627\\u062d\\u0631\\u0641 \\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629\"}}, {\"added\": {\"name\": \"Said_question\", \"object\": \"\\u0645\\u0627 \\u0647\\u0648 \\u0639\\u062f\\u062f \\u0627\\u0644\\u0627\\u062d\\u0631\\u0641 \\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629\"}}, {\"added\": {\"name\": \"Lesson_words\", \"object\": \"\\u0628\\u062f\\u0627\\u064a\\u0629 \\u0627\\u0644\\u0643\\u0644\\u0645\\u0629\"}}, {\"added\": {\"name\": \"Lesson_words\", \"object\": \"\\u0648\\u0633\\u0637 \\u0627\\u0644\\u0643\\u0644\\u0645\\u0629\"}}, {\"added\": {\"name\": \"Lesson_words\", \"object\": \"\\u0646\\u0647\\u0627\\u064a\\u0629 \\u0627\\u0644\\u0643\\u0644\\u0645\\u0629\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 3,
+        "fields": {
+            "action_time": "2023-10-07T23:05:18Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "2",
+            "object_repr": "lesson two",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 4,
+        "fields": {
+            "action_time": "2023-10-07T23:06:55Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "2",
+            "object_repr": "lesson two",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Said_question\", \"object\": \"\\u0645\\u0627 \\u0647\\u0648 \\u0639\\u062f\\u062f \\u0627\\u0644\\u0627\\u062d\\u0631\\u0641 \\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629\"}}, {\"added\": {\"name\": \"Lesson_words\", \"object\": \"\\u0647\\u0630\\u0627\"}}, {\"added\": {\"name\": \"Lesson_words\", \"object\": \"\\u0642\\u0644\\u0645\"}}, {\"added\": {\"name\": \"Lesson_words\", \"object\": \"\\u0642\\u0645\\u0631\"}}, {\"added\": {\"name\": \"Lesson_words\", \"object\": \"\\u062f\\u0641\\u062a\\u0631\"}}, {\"added\": {\"name\": \"Lesson_words\", \"object\": \"\\u0643\\u0631\\u0633\\u064a\"}}, {\"added\": {\"name\": \"Lesson_words\", \"object\": \"\\u0647\\u0627\\u062a\\u0641\"}}, {\"added\": {\"name\": \"Lesson_words\", \"object\": \"\\u0628\\u0627\\u0628\"}}, {\"added\": {\"name\": \"Lesson_words\", \"object\": \"\\u0646\\u0639\\u0645\"}}, {\"added\": {\"name\": \"Lesson_words\", \"object\": \"\\u0644\\u0627\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 5,
+        "fields": {
+            "action_time": "2023-10-08T00:32:52Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "1",
+            "object_repr": "كيف يكتب حرف الباء في وسط الكلمة",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0628\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0640\\u0628\\u0640\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0628\\u0640\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 6,
+        "fields": {
+            "action_time": "2023-10-08T00:34:19Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "2",
+            "object_repr": "كيف يكتب حرف الجيم في بداية الكلمة",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u062c\\u0640\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0640\\u062c\\u0640\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u062c\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 7,
+        "fields": {
+            "action_time": "2023-10-08T00:36:40Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "1",
+            "object_repr": "كيف",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 8,
+        "fields": {
+            "action_time": "2023-10-08T00:37:33Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "2",
+            "object_repr": "حرف",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 9,
+        "fields": {
+            "action_time": "2023-10-08T00:38:28Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "3",
+            "object_repr": "يكتب",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 10,
+        "fields": {
+            "action_time": "2023-10-08T00:39:05Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "4",
+            "object_repr": "في",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 11,
+        "fields": {
+            "action_time": "2023-10-08T00:39:38Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "2",
+            "object_repr": "كيف يكتب حرف الجيم في بداية الكلمة 1",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Question\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 12,
+        "fields": {
+            "action_time": "2023-10-08T00:40:14Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "2",
+            "object_repr": "1- كيف يكتب حرف الجيم في بداية الكلمة",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Question\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 13,
+        "fields": {
+            "action_time": "2023-10-08T00:40:14Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "2",
+            "object_repr": "1- كيف يكتب حرف الجيم في بداية الكلمة",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 14,
+        "fields": {
+            "action_time": "2023-10-08T00:40:30Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "2",
+            "object_repr": "1-  كيف يكتب حرف الجيم في بداية الكلمة",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Question\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 15,
+        "fields": {
+            "action_time": "2023-10-08T00:40:43Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "1",
+            "object_repr": "2- كيف يكتب حرف الباء في وسط الكلمة",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Question\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 16,
+        "fields": {
+            "action_time": "2023-10-08T00:41:09Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "2",
+            "object_repr": "كيف يكتب حرف الجيم في بداية الكلمة",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Question\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 17,
+        "fields": {
+            "action_time": "2023-10-08T00:41:17Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "1",
+            "object_repr": "كيف يكتب حرف الباء في وسط الكلمة",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Question\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 18,
+        "fields": {
+            "action_time": "2023-10-09T01:02:11Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "2",
+            "object_repr": "lesson two",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 19,
+        "fields": {
+            "action_time": "2023-10-09T01:04:30Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "2",
+            "object_repr": "lesson two",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 20,
+        "fields": {
+            "action_time": "2023-10-09T01:05:03Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "2",
+            "object_repr": "lesson two",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 21,
+        "fields": {
+            "action_time": "2023-10-09T01:35:30Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "2",
+            "object_repr": "lesson two",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 22,
+        "fields": {
+            "action_time": "2023-10-09T01:39:00Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "3",
+            "object_repr": "مااذا تعني \"هذا\"",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u043f\\u0440\\u0438\\u0432\\u0435\\u0442\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u044d\\u0442\\u043e\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u043f\\u043e\\u043a\\u0430\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 23,
+        "fields": {
+            "action_time": "2023-10-09T01:39:39Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "4",
+            "object_repr": "مااذا تعني \"ما هذا\"",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0447\\u0442\\u043e \\u044d\\u0442\\u043e\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u043a\\u0442\\u043e \\u044d\\u0442\\u043e\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u043a\\u043e\\u043c\\u0443\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 24,
+        "fields": {
+            "action_time": "2023-10-09T01:41:35Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "5",
+            "object_repr": "как будеет ручка по-арабский",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0636\\u0648\\u0621\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0628\\u062d\\u0631\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0642\\u0644\\u0645\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 25,
+        "fields": {
+            "action_time": "2023-10-09T01:42:49Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "6",
+            "object_repr": "как будеет дверь по-арабский",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u062a\\u0644\\u0645\\u064a\\u0630\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0628\\u0627\\u0628\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0635\\u0641\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 26,
+        "fields": {
+            "action_time": "2023-10-09T01:45:10Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "7",
+            "object_repr": "test",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0644\\u0644\\u0644\\u0644\\u0644\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0642\\u0644\\u0645\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u043f\\u043e\\u043a\\u0430\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 27,
+        "fields": {
+            "action_time": "2023-10-09T01:47:51Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "2",
+            "object_repr": "كيف يكتب حرف الجيم في بداية الكلمة",
+            "action_flag": 2,
+            "change_message": "[{\"added\": {\"name\": \"Answer\", \"object\": \"\\u0642\\u0644\\u0645\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 28,
+        "fields": {
+            "action_time": "2023-10-09T01:52:57Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "7",
+            "object_repr": "test",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 29,
+        "fields": {
+            "action_time": "2023-10-09T01:55:38Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "8",
+            "object_repr": "ماذا تعني كلمة \"тетрадь\" بالعربية",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u062f\\u0641\\u062a\\u0631\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0643\\u0627\\u0633\\u0629\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0637\\u0631\\u064a\\u0642\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 30,
+        "fields": {
+            "action_time": "2023-10-09T01:58:07Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "2",
+            "object_repr": "كيف يكتب حرف الجيم في بداية الكلمة",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"name\": \"Answer\", \"object\": \"\\u0628\", \"fields\": [\"Answer\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 31,
+        "fields": {
+            "action_time": "2023-10-09T01:58:20Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "2",
+            "object_repr": "كيف يكتب حرف الجيم في بداية الكلمة",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"name\": \"Answer\", \"object\": \"\\u0623\", \"fields\": [\"Answer\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 32,
+        "fields": {
+            "action_time": "2023-10-09T02:02:05Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "9",
+            "object_repr": "مااذا تعني \"كرسي\"",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0441\\u0442\\u0443\\u043b\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0441\\u0442\\u0435\\u043d\\u0430\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u043b\\u0430\\u043c\\u043f\\u0430\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 33,
+        "fields": {
+            "action_time": "2023-10-09T02:03:39Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "10",
+            "object_repr": "как будеет \"Да\" по-арабский ?",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0646\\u0639\\u0645\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0644\\u0627\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0631\\u0628\\u0645\\u0627\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 34,
+        "fields": {
+            "action_time": "2023-10-09T02:04:56Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "5",
+            "object_repr": "بالعربية",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 35,
+        "fields": {
+            "action_time": "2023-10-09T02:05:47Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "6",
+            "object_repr": "كلمة",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 36,
+        "fields": {
+            "action_time": "2023-10-09T03:53:03Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "2",
+            "object_repr": "lesson two",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 37,
+        "fields": {
+            "action_time": "2023-10-09T03:53:47Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "3",
+            "object_repr": "lesson 3",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 38,
+        "fields": {
+            "action_time": "2023-10-09T03:54:10Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "3",
+            "object_repr": "lesson 3",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 39,
+        "fields": {
+            "action_time": "2023-10-10T20:46:55Z",
+            "user": 1,
+            "content_type": 16,
+            "object_id": "2",
+            "object_repr": "В чем сложность изучения арабского языка",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 40,
+        "fields": {
+            "action_time": "2023-10-10T20:47:32Z",
+            "user": 1,
+            "content_type": 16,
+            "object_id": "3",
+            "object_repr": "Что сложнее русский или арабский",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 41,
+        "fields": {
+            "action_time": "2023-10-10T20:47:52Z",
+            "user": 1,
+            "content_type": 16,
+            "object_id": "4",
+            "object_repr": "Сколько букв в арабском языке",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 42,
+        "fields": {
+            "action_time": "2023-10-10T20:49:37Z",
+            "user": 1,
+            "content_type": 16,
+            "object_id": "5",
+            "object_repr": "Что проще китайский или арабский",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 43,
+        "fields": {
+            "action_time": "2023-10-10T20:50:27Z",
+            "user": 1,
+            "content_type": 16,
+            "object_id": "6",
+            "object_repr": "Сколько слов нужно знать чтобы говорить на арабском языке",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 44,
+        "fields": {
+            "action_time": "2023-10-10T20:50:42Z",
+            "user": 1,
+            "content_type": 16,
+            "object_id": "7",
+            "object_repr": "На каком языке говорят в Дубаи",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 45,
+        "fields": {
+            "action_time": "2023-10-10T22:14:20Z",
+            "user": 1,
+            "content_type": 16,
+            "object_id": "2",
+            "object_repr": "В чем сложность изучения арабского языка",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 46,
+        "fields": {
+            "action_time": "2023-10-10T22:17:41Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "11",
+            "object_repr": "для какой род использваем \"هذه\"",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u043c\\u043e\\u0436\\u0441\\u043a\\u043e\\u0439 \\u0440\\u043e\\u0434\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0436\\u0435\\u043d\\u0441\\u043a\\u043e\\u0439 \\u0440\\u043e\\u0434\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 47,
+        "fields": {
+            "action_time": "2023-10-10T22:20:04Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "12",
+            "object_repr": "مااذا تعني \"سيارة\"",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u043c\\u0430\\u0448\\u0438\\u043d\\u0430\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0430\\u0432\\u0442\\u043e\\u0431\\u0443\\u0441\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0441\\u0430\\u043c\\u043e\\u043b\\u0435\\u0442\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u043c\\u044f\\u0447\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 48,
+        "fields": {
+            "action_time": "2023-10-10T22:21:04Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "13",
+            "object_repr": "как будеет \"стол\" по-арабский ?",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u062f\\u0631\\u0627\\u062c\\u0629\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0633\\u0627\\u0639\\u0629\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0637\\u0627\\u0648\\u0644\\u0629\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 49,
+        "fields": {
+            "action_time": "2023-10-10T22:22:17Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "14",
+            "object_repr": "как будеет школа по-арабский",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u062c\\u0627\\u0645\\u0639\\u0629\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0645\\u062f\\u0631\\u0633\\u0629\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0628\\u064a\\u062a\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 50,
+        "fields": {
+            "action_time": "2023-10-10T22:23:41Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "11",
+            "object_repr": "\"هذه\" для какой род использваем",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Question\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 51,
+        "fields": {
+            "action_time": "2023-10-10T22:28:43Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "15",
+            "object_repr": "مااذا تعني \"من هذا\"",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u044d\\u0442\\u043e \\u043d\\u0430\\u0442\\u0430\\u0448\\u0430\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u043f\\u0440\\u0438\\u0432\\u0435\\u0442\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u043a\\u0442\\u043e \\u044d\\u0442\\u043e\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 52,
+        "fields": {
+            "action_time": "2023-10-11T01:20:39Z",
+            "user": 1,
+            "content_type": 18,
+            "object_id": "3",
+            "object_repr": "قصة القِطُ الجَائِع",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Parargraph\", \"object\": \"\\u0642\\u0635\\u0629 \\u0627\\u0644\\u0642\\u0650\\u0637\\u064f \\u0627\\u0644\\u062c\\u064e\\u0627\\u0626\\u0650\\u0639\"}}, {\"added\": {\"name\": \"Parargraph\", \"object\": \"\\u0642\\u0635\\u0629 \\u0627\\u0644\\u0642\\u0650\\u0637\\u064f \\u0627\\u0644\\u062c\\u064e\\u0627\\u0626\\u0650\\u0639\"}}, {\"added\": {\"name\": \"Parargraph\", \"object\": \"\\u0642\\u0635\\u0629 \\u0627\\u0644\\u0642\\u0650\\u0637\\u064f \\u0627\\u0644\\u062c\\u064e\\u0627\\u0626\\u0650\\u0639\"}}, {\"added\": {\"name\": \"Parargraph\", \"object\": \"\\u0642\\u0635\\u0629 \\u0627\\u0644\\u0642\\u0650\\u0637\\u064f \\u0627\\u0644\\u062c\\u064e\\u0627\\u0626\\u0650\\u0639\"}}, {\"added\": {\"name\": \"Parargraph\", \"object\": \"\\u0642\\u0635\\u0629 \\u0627\\u0644\\u0642\\u0650\\u0637\\u064f \\u0627\\u0644\\u062c\\u064e\\u0627\\u0626\\u0650\\u0639\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 53,
+        "fields": {
+            "action_time": "2023-10-12T02:11:34Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "4",
+            "object_repr": "lesson 4",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 54,
+        "fields": {
+            "action_time": "2023-10-12T02:16:13Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "4",
+            "object_repr": "lesson 4",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Lesson_words\", \"object\": \"\\u0628\\u064a\\u062a\"}}, {\"added\": {\"name\": \"Lesson_words\", \"object\": \"\\u0645\\u0644\\u0639\\u0628\"}}, {\"added\": {\"name\": \"Lesson_words\", \"object\": \"\\u0643\\u0644\\u0628\"}}, {\"added\": {\"name\": \"Lesson_words\", \"object\": \"\\u0642\\u0637\"}}, {\"added\": {\"name\": \"Lesson_words\", \"object\": \"\\u062d\\u0644\\u064a\\u0628\"}}, {\"added\": {\"name\": \"Lesson_words\", \"object\": \"\\u0633\\u0643\\u0631\"}}, {\"added\": {\"name\": \"Lesson_words\", \"object\": \"\\u0637\\u0627\\u0644\\u0628\"}}, {\"added\": {\"name\": \"Lesson_words\", \"object\": \"\\u0627\\u0633\\u062a\\u0627\\u0630\"}}, {\"added\": {\"name\": \"Lesson_words\", \"object\": \"\\u0633\\u0631\\u064a\\u0631\"}}, {\"added\": {\"name\": \"Lesson_words\", \"object\": \"\\u0637\\u0628\\u064a\\u0628\\u0629\"}}, {\"added\": {\"name\": \"Lesson_words\", \"object\": \"\\u0645\\u0647\\u0646\\u062f\\u0633\\u0629\"}}, {\"added\": {\"name\": \"Lesson_words\", \"object\": \"\\u0645\\u062f\\u0631\\u0633\\u0629\"}}, {\"added\": {\"name\": \"Lesson_words\", \"object\": \"\\u062c\\u0627\\u0645\\u0639\\u0629\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 55,
+        "fields": {
+            "action_time": "2023-10-12T02:18:05Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "4",
+            "object_repr": "lesson 4",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"name\": \"Lesson_words\", \"object\": \"\\u0642\\u0637\", \"fields\": [\"Lesson word id\"]}}, {\"changed\": {\"name\": \"Lesson_words\", \"object\": \"\\u062d\\u0644\\u064a\\u0628\", \"fields\": [\"Lesson word id\"]}}, {\"changed\": {\"name\": \"Lesson_words\", \"object\": \"\\u0633\\u0643\\u0631\", \"fields\": [\"Lesson word id\"]}}, {\"changed\": {\"name\": \"Lesson_words\", \"object\": \"\\u0637\\u0627\\u0644\\u0628\", \"fields\": [\"Lesson word id\"]}}, {\"changed\": {\"name\": \"Lesson_words\", \"object\": \"\\u0627\\u0633\\u062a\\u0627\\u0630\", \"fields\": [\"Lesson word id\"]}}, {\"changed\": {\"name\": \"Lesson_words\", \"object\": \"\\u0633\\u0631\\u064a\\u0631\", \"fields\": [\"Lesson word id\"]}}, {\"changed\": {\"name\": \"Lesson_words\", \"object\": \"\\u0637\\u0628\\u064a\\u0628\\u0629\", \"fields\": [\"Lesson word id\"]}}, {\"changed\": {\"name\": \"Lesson_words\", \"object\": \"\\u0645\\u0647\\u0646\\u062f\\u0633\\u0629\", \"fields\": [\"Lesson word id\"]}}, {\"changed\": {\"name\": \"Lesson_words\", \"object\": \"\\u0645\\u062f\\u0631\\u0633\\u0629\", \"fields\": [\"Lesson word id\"]}}, {\"changed\": {\"name\": \"Lesson_words\", \"object\": \"\\u062c\\u0627\\u0645\\u0639\\u0629\", \"fields\": [\"Lesson word id\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 56,
+        "fields": {
+            "action_time": "2023-10-12T02:36:23Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "16",
+            "object_repr": "как будеет студент по-арабский",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0645\\u062f\\u064a\\u0631\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u062a\\u0644\\u0645\\u064a\\u0630\\u0629\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0637\\u0627\\u0644\\u0628\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 57,
+        "fields": {
+            "action_time": "2023-10-12T02:38:31Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "17",
+            "object_repr": "как будеет университет по-арабский",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u062c\\u0627\\u0645\\u0639\\u0629\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0645\\u062f\\u0631\\u0633\\u0629\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u062c\\u0627\\u0645\\u0639\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 58,
+        "fields": {
+            "action_time": "2023-10-12T02:40:18Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "18",
+            "object_repr": "как будеет молоко по-арабский",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u062d\\u0644\\u064a\\u0628\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0642\\u0647\\u0648\\u0629\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0642\\u0644\\u0645\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 59,
+        "fields": {
+            "action_time": "2023-10-12T02:43:25Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "19",
+            "object_repr": "как будеет сахар по-арабский",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0633\\u0643\\u0631\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0641\\u0644\\u0645\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u062c\\u0628\\u0644\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 60,
+        "fields": {
+            "action_time": "2023-10-12T02:48:43Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "20",
+            "object_repr": "как будеет учитель по-арабский",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0627\\u0633\\u062a\\u0627\\u0630\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0642\\u0641\\u0644\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0628\\u0627\\u0628\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 61,
+        "fields": {
+            "action_time": "2023-10-12T03:03:16Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "21",
+            "object_repr": "как будеет дом по-арабский",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0628\\u064a\\u062a\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0633\\u064a\\u0627\\u0631\\u0629\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0633\\u0641\\u064a\\u0646\\u0629\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 62,
+        "fields": {
+            "action_time": "2023-10-12T03:12:19Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "22",
+            "object_repr": "مااذا تعني كلمة \"ملعب\"",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0440\\u0443\\u0447\\u043a\\u0430\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0434\\u0432\\u0435\\u0440\\u044c\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0441\\u0442\\u0430\\u0434\\u0438\\u043e\\u043d\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 63,
+        "fields": {
+            "action_time": "2023-10-12T03:13:05Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "23",
+            "object_repr": "مااذا تعني كلمة \"قط\"",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u043a\\u043e\\u0442\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0441\\u0442\\u043e\\u043b\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0441\\u0442\\u0443\\u043b\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 64,
+        "fields": {
+            "action_time": "2023-10-12T03:14:37Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "24",
+            "object_repr": "مااذا تعني كلمة \"كلب\"",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u043f\\u0442\\u0438\\u0446\\u0430\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u043b\\u0435\\u0432\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0441\\u043e\\u0431\\u0430\\u043a\\u0430\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 65,
+        "fields": {
+            "action_time": "2023-10-12T03:15:30Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "25",
+            "object_repr": "مااذا تعني كلمة \"مدرسة\"",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0448\\u043a\\u043e\\u043b\\u0430\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0433\\u043e\\u0440\\u043e\\u0434\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0440\\u0430\\u0439\\u043e\\u043d\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 66,
+        "fields": {
+            "action_time": "2023-10-12T13:17:48Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "7",
+            "object_repr": "الجبال",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 67,
+        "fields": {
+            "action_time": "2023-10-12T13:18:20Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "8",
+            "object_repr": "فلم",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 68,
+        "fields": {
+            "action_time": "2023-10-12T13:18:52Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "9",
+            "object_repr": "قهوة",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 69,
+        "fields": {
+            "action_time": "2023-10-12T13:19:38Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "10",
+            "object_repr": "مدير",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 70,
+        "fields": {
+            "action_time": "2023-10-12T13:20:05Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "11",
+            "object_repr": "قفل",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 71,
+        "fields": {
+            "action_time": "2023-10-12T13:20:37Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "12",
+            "object_repr": "سفينة",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 72,
+        "fields": {
+            "action_time": "2023-10-12T13:24:40Z",
+            "user": 1,
+            "content_type": 18,
+            "object_id": "3",
+            "object_repr": "قصة القِطُ الجَائِع",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 73,
+        "fields": {
+            "action_time": "2023-10-12T14:27:25Z",
+            "user": 1,
+            "content_type": 18,
+            "object_id": "3",
+            "object_repr": "قصة القِطُ الجَائِع",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 74,
+        "fields": {
+            "action_time": "2023-10-12T18:59:39Z",
+            "user": 1,
+            "content_type": 18,
+            "object_id": "4",
+            "object_repr": "تويتي الطائر الصغير",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Parargraph\", \"object\": \"\\u062a\\u0648\\u064a\\u062a\\u064a \\u0627\\u0644\\u0637\\u0627\\u0626\\u0631 \\u0627\\u0644\\u0635\\u063a\\u064a\\u0631\"}}, {\"added\": {\"name\": \"Parargraph\", \"object\": \"\\u062a\\u0648\\u064a\\u062a\\u064a \\u0627\\u0644\\u0637\\u0627\\u0626\\u0631 \\u0627\\u0644\\u0635\\u063a\\u064a\\u0631\"}}, {\"added\": {\"name\": \"Parargraph\", \"object\": \"\\u062a\\u0648\\u064a\\u062a\\u064a \\u0627\\u0644\\u0637\\u0627\\u0626\\u0631 \\u0627\\u0644\\u0635\\u063a\\u064a\\u0631\"}}, {\"added\": {\"name\": \"Parargraph\", \"object\": \"\\u062a\\u0648\\u064a\\u062a\\u064a \\u0627\\u0644\\u0637\\u0627\\u0626\\u0631 \\u0627\\u0644\\u0635\\u063a\\u064a\\u0631\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 75,
+        "fields": {
+            "action_time": "2023-10-12T19:23:37Z",
+            "user": 1,
+            "content_type": 18,
+            "object_id": "3",
+            "object_repr": "قصة القِطُ الجَائِع",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Audio\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 76,
+        "fields": {
+            "action_time": "2023-10-18T00:56:31Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "1",
+            "object_repr": "первый урок",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 77,
+        "fields": {
+            "action_time": "2023-10-18T00:56:55Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "2",
+            "object_repr": "второй урок",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 78,
+        "fields": {
+            "action_time": "2023-10-18T01:11:38Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "3",
+            "object_repr": "третий урок",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 79,
+        "fields": {
+            "action_time": "2023-10-18T01:12:07Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "4",
+            "object_repr": "четвертый урок",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 80,
+        "fields": {
+            "action_time": "2023-10-18T01:18:31Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "3",
+            "object_repr": "третий урок",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 81,
+        "fields": {
+            "action_time": "2023-10-18T01:19:15Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "3",
+            "object_repr": "третий урок",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 82,
+        "fields": {
+            "action_time": "2023-10-18T01:19:26Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "2",
+            "object_repr": "второй урок",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 83,
+        "fields": {
+            "action_time": "2023-10-18T01:20:13Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "4",
+            "object_repr": "четвертый урок",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 84,
+        "fields": {
+            "action_time": "2023-10-18T01:24:09Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "1",
+            "object_repr": "первый урок",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 85,
+        "fields": {
+            "action_time": "2023-10-18T01:24:47Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "1",
+            "object_repr": "первый урок",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 86,
+        "fields": {
+            "action_time": "2023-10-18T01:27:39Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "1",
+            "object_repr": "первый урок",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 87,
+        "fields": {
+            "action_time": "2023-10-18T01:28:01Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "1",
+            "object_repr": "первый урок",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 88,
+        "fields": {
+            "action_time": "2023-10-18T01:32:58Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "1",
+            "object_repr": "Quiz  первый урок",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Quiz name\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 89,
+        "fields": {
+            "action_time": "2023-10-18T01:56:51Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "2",
+            "object_repr": "тест второго урока",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Quiz name\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 90,
+        "fields": {
+            "action_time": "2023-10-18T01:57:14Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "1",
+            "object_repr": "тест первого урока",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Quiz name\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 91,
+        "fields": {
+            "action_time": "2023-10-18T01:57:59Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "3",
+            "object_repr": "тест третьего урока",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Quiz name\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 92,
+        "fields": {
+            "action_time": "2023-10-18T01:58:31Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "4",
+            "object_repr": "тест четверього урока",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Quiz name\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 93,
+        "fields": {
+            "action_time": "2023-10-18T22:33:18Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "5",
+            "object_repr": "тест пятого урока",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 94,
+        "fields": {
+            "action_time": "2023-10-18T22:33:24Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "5",
+            "object_repr": "пятый урок",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 95,
+        "fields": {
+            "action_time": "2023-10-18T22:34:24Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "5",
+            "object_repr": "пятый урок",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 96,
+        "fields": {
+            "action_time": "2023-10-18T22:44:52Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "5",
+            "object_repr": "пятый урок",
+            "action_flag": 2,
+            "change_message": "[{\"added\": {\"name\": \"Lesson_words\", \"object\": \"\\u0627\\u0644\\u062a\\u0641\\u0627\\u062d\"}}, {\"added\": {\"name\": \"Lesson_words\", \"object\": \"\\u0627\\u0644\\u062b\\u0642\\u0627\\u0641\\u0629\"}}, {\"added\": {\"name\": \"Lesson_words\", \"object\": \"\\u0627\\u0644\\u0644\\u0651\\u0627\\u0639\\u0628\"}}, {\"added\": {\"name\": \"Lesson_words\", \"object\": \"\\u0627\\u0644\\u0652\\u062d\\u0628\"}}, {\"added\": {\"name\": \"Lesson_words\", \"object\": \"\\u0627\\u0644\\u0652\\u062e\\u064a\\u0631\"}}, {\"added\": {\"name\": \"Lesson_words\", \"object\": \"\\u0627\\u0644\\u0631\\u0628\\u062d\"}}, {\"added\": {\"name\": \"Lesson_words\", \"object\": \"\\u0627\\u0644\\u0652\\u0639\\u064a\\u0646\"}}, {\"added\": {\"name\": \"Lesson_words\", \"object\": \"\\u0627\\u0644\\u0652\\u0641\\u0627\\u0643\\u0647\\u0629\"}}, {\"added\": {\"name\": \"Lesson_words\", \"object\": \"\\u0627\\u0644\\u0638\\u0644\\u0627\\u0645\"}}, {\"added\": {\"name\": \"Lesson_words\", \"object\": \"\\u0627\\u0644\\u0652\\u0648\\u0631\\u062f\"}}, {\"added\": {\"name\": \"Lesson_words\", \"object\": \"\\u0627\\u0644\\u0646\\u0627\\u0631\"}}, {\"added\": {\"name\": \"Lesson_words\", \"object\": \"\\u0627\\u0644\\u0652\\u064a\\u062f\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 97,
+        "fields": {
+            "action_time": "2023-10-19T00:14:08Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "5",
+            "object_repr": "пятый урок",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 98,
+        "fields": {
+            "action_time": "2023-10-19T09:45:07Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "26",
+            "object_repr": "как будеет Яблоки по-арабский",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0627\\u0644\\u0646\\u0627\\u0631\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0627\\u0644\\u062a\\u0641\\u0627\\u062d\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u062d\\u0648\\u062a\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 99,
+        "fields": {
+            "action_time": "2023-10-19T09:46:00Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "27",
+            "object_repr": "как будеет любовь по-арабский",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0627\\u0644\\u0652\\u062d\\u0628\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0627\\u0644\\u0652\\u064a\\u062f\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0623\\u0646\\u0641\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 100,
+        "fields": {
+            "action_time": "2023-10-19T09:47:20Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "28",
+            "object_repr": "как будеет Розы по-арабский",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0627\\u0644\\u0652\\u0648\\u0631\\u062f\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0627\\u0644\\u0628\\u062d\\u0631\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0627\\u0644\\u0646\\u0647\\u0631\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 101,
+        "fields": {
+            "action_time": "2023-10-19T09:48:31Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "29",
+            "object_repr": "как будеет Культура по-арабский",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0627\\u0644\\u062b\\u0642\\u0627\\u0641\\u0629\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0627\\u0644\\u0652\\u062e\\u064a\\u0631\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0642\\u0644\\u0645\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 102,
+        "fields": {
+            "action_time": "2023-10-19T09:49:34Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "30",
+            "object_repr": "как будеет фрукт по-арабский",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0627\\u0644\\u0652\\u0641\\u0627\\u0643\\u0647\\u0629\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u062d\\u0644\\u064a\\u0628\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u062a\\u0641\\u0627\\u062d\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 103,
+        "fields": {
+            "action_time": "2023-10-19T09:51:29Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "31",
+            "object_repr": "ماذا تعني كلمة \"النار\" بالعربية",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u043e\\u0433\\u043e\\u043d\\u044c\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0442\\u0435\\u043c\\u043d\\u043e\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0444\\u0440\\u0443\\u043a\\u0442\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 104,
+        "fields": {
+            "action_time": "2023-10-19T09:54:37Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "30",
+            "object_repr": "как будеет фрукт по-арабский",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 105,
+        "fields": {
+            "action_time": "2023-10-19T09:54:57Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "13",
+            "object_repr": "كيف",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 106,
+        "fields": {
+            "action_time": "2023-10-19T09:59:25Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "13",
+            "object_repr": "كيف",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Quiz\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 107,
+        "fields": {
+            "action_time": "2023-10-19T09:59:44Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "26",
+            "object_repr": "как будеет Яблоки по-арабский",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Quiz\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 108,
+        "fields": {
+            "action_time": "2023-10-19T09:59:52Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "27",
+            "object_repr": "как будеет любовь по-арабский",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Quiz\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 109,
+        "fields": {
+            "action_time": "2023-10-19T10:00:03Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "28",
+            "object_repr": "как будеет Розы по-арабский",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Quiz\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 110,
+        "fields": {
+            "action_time": "2023-10-19T10:00:10Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "30",
+            "object_repr": "как будеет фрукт по-арабский",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Quiz\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 111,
+        "fields": {
+            "action_time": "2023-10-19T10:00:18Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "31",
+            "object_repr": "ماذا تعني كلمة \"النار\" بالعربية",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Quiz\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 112,
+        "fields": {
+            "action_time": "2023-10-19T10:02:52Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "29",
+            "object_repr": "как будеет Культура по-арабский",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Quiz\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 113,
+        "fields": {
+            "action_time": "2023-10-19T10:25:35Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "32",
+            "object_repr": "ما نوع اللا في كلمة التفاح",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0441\\u043e\\u043b\\u043d\\u0435\\u0447\\u043d\\u044b\\u0435\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u043b\\u0443\\u043d\\u043d\\u044b\\u0435\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 114,
+        "fields": {
+            "action_time": "2023-10-19T10:28:05Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "33",
+            "object_repr": "ما نوع ال في كلمة الشَّمس",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0441\\u043e\\u043b\\u043d\\u0435\\u0447\\u043d\\u044b\\u0435\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u043b\\u0443\\u043d\\u043d\\u044b\\u0435\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 115,
+        "fields": {
+            "action_time": "2023-10-19T10:31:34Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "34",
+            "object_repr": "ما نوع ال في كلمة الشَّمس",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0441\\u043e\\u043b\\u043d\\u0435\\u0447\\u043d\\u044b\\u0435\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u043b\\u0443\\u043d\\u043d\\u044b\\u0435\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 116,
+        "fields": {
+            "action_time": "2023-10-19T10:31:42Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "34",
+            "object_repr": "ما نوع ال في كلمة الشَّمس",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 117,
+        "fields": {
+            "action_time": "2023-10-19T10:32:23Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "32",
+            "object_repr": "ما نوع ال في كلمة التفاح",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Question\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 118,
+        "fields": {
+            "action_time": "2023-10-19T10:33:52Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "32",
+            "object_repr": "ما نوع ال في كلمة التفاح",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 119,
+        "fields": {
+            "action_time": "2023-10-19T10:36:37Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "13",
+            "object_repr": "نوع",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Word AR\", \"Word RU\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 120,
+        "fields": {
+            "action_time": "2023-10-19T10:39:38Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "35",
+            "object_repr": "ماذا تعني كلمة \"глаз\" بالعربية",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0627\\u0644\\u0652\\u0639\\u064a\\u0646\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0627\\u0644\\u0623\\u0646\\u0641\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0627\\u0644\\u0623\\u0630\\u0646\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 121,
+        "fields": {
+            "action_time": "2023-10-19T10:40:24Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "36",
+            "object_repr": "ماذا تعني كلمة \"добро\" بالعربية",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0627\\u0644\\u0652\\u062e\\u064a\\u0631\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0627\\u0644\\u0634\\u0631\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0627\\u0644\\u0645\\u0648\\u062a\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 122,
+        "fields": {
+            "action_time": "2023-10-19T10:41:34Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "37",
+            "object_repr": "ماذا تعني كلمة \"игрок\" بالعربية",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0627\\u0644\\u0644\\u0651\\u0627\\u0639\\u0628\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0637\\u0628\\u064a\\u0628\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0627\\u0644\\u0645\\u0647\\u0646\\u062f\\u0633\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 123,
+        "fields": {
+            "action_time": "2023-10-19T10:49:15Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "38",
+            "object_repr": "выбирите солнечную Л",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0627\\u0644\\u0630\\u064e\\u0651\\u0631\\u064e\\u0651\\u0629\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0630\\u064e\\u0651\\u0631\\u064e\\u0651\\u0629\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u062d\\u0628\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 124,
+        "fields": {
+            "action_time": "2023-10-19T14:38:17Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "39",
+            "object_repr": "выбирите солнечную Л",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0627\\u0644\\u0631\\u0628\\u062d\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0627\\u0644\\u0652\\u063a\\u0631\\u0628\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0627\\u0644\\u0652\\u0647\\u0627\\u062a\\u0641\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 125,
+        "fields": {
+            "action_time": "2023-10-19T14:39:48Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "40",
+            "object_repr": "выбирите лунные Л",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0627\\u0644\\u0652\\u0628\\u0627\\u0628\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0627\\u0644\\u062f\\u0631\\u062c\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0627\\u0644\\u0633\\u064a\\u0627\\u0631\\u0629\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 126,
+        "fields": {
+            "action_time": "2023-10-19T14:41:15Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "41",
+            "object_repr": "выбирите лунные Л",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0627\\u0644\\u0645\\u0627\\u0621\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0627\\u0644\\u0646\\u0648\\u0631\"}}, {\"added\": {\"name\": \"Answer\", \"object\": \"\\u0627\\u0644\\u062a\\u0631\\u0627\\u0628\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 127,
+        "fields": {
+            "action_time": "2023-10-19T21:29:29Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "2",
+            "object_repr": "второй урок",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 128,
+        "fields": {
+            "action_time": "2023-10-19T21:29:38Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "3",
+            "object_repr": "третий урок",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 129,
+        "fields": {
+            "action_time": "2023-10-19T21:30:26Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "5",
+            "object_repr": "пятый урок",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 130,
+        "fields": {
+            "action_time": "2023-10-19T21:30:57Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "5",
+            "object_repr": "пятый урок",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 131,
+        "fields": {
+            "action_time": "2023-10-19T21:31:48Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "5",
+            "object_repr": "пятый урок",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 132,
+        "fields": {
+            "action_time": "2023-10-19T21:33:11Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "5",
+            "object_repr": "пятый урок",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 133,
+        "fields": {
+            "action_time": "2023-10-19T21:34:00Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "5",
+            "object_repr": "пятый урок",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 134,
+        "fields": {
+            "action_time": "2023-10-19T21:35:12Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "1",
+            "object_repr": "первый урок",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 135,
+        "fields": {
+            "action_time": "2023-10-22T00:30:49Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "1",
+            "object_repr": "ayham rabea",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 136,
+        "fields": {
+            "action_time": "2023-10-22T00:31:26Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "2",
+            "object_repr": "ayham rabea",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 137,
+        "fields": {
+            "action_time": "2023-11-09T02:33:59.693Z",
+            "user": 1,
+            "content_type": 15,
+            "object_id": "30",
+            "object_repr": "как будеет фрукт по-арабски",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Question\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 138,
+        "fields": {
+            "action_time": "2023-11-09T02:34:07.174Z",
+            "user": 1,
+            "content_type": 15,
+            "object_id": "29",
+            "object_repr": "как будеет Культура по-арабски",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Question\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 139,
+        "fields": {
+            "action_time": "2023-11-09T02:34:37.427Z",
+            "user": 1,
+            "content_type": 15,
+            "object_id": "27",
+            "object_repr": "как будеет любовь по-арабски",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Question\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 140,
+        "fields": {
+            "action_time": "2023-11-09T02:34:43.429Z",
+            "user": 1,
+            "content_type": 15,
+            "object_id": "26",
+            "object_repr": "как будеет Яблоки по-арабски",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Question\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 141,
+        "fields": {
+            "action_time": "2023-11-09T02:34:49.887Z",
+            "user": 1,
+            "content_type": 15,
+            "object_id": "20",
+            "object_repr": "как будеет учитель по-арабски",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Question\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 142,
+        "fields": {
+            "action_time": "2023-11-09T02:34:59.736Z",
+            "user": 1,
+            "content_type": 15,
+            "object_id": "28",
+            "object_repr": "как будеет Розы по-арабски",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Question\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 143,
+        "fields": {
+            "action_time": "2023-11-09T02:35:07.072Z",
+            "user": 1,
+            "content_type": 15,
+            "object_id": "19",
+            "object_repr": "как будеет сахар по-арабски",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Question\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 144,
+        "fields": {
+            "action_time": "2023-11-09T02:35:13.547Z",
+            "user": 1,
+            "content_type": 15,
+            "object_id": "21",
+            "object_repr": "как будеет дом по-арабски",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Question\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 145,
+        "fields": {
+            "action_time": "2023-11-09T02:35:27.071Z",
+            "user": 1,
+            "content_type": 15,
+            "object_id": "17",
+            "object_repr": "как будеет университет по-арабски",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Question\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 146,
+        "fields": {
+            "action_time": "2023-11-09T02:35:37.189Z",
+            "user": 1,
+            "content_type": 15,
+            "object_id": "16",
+            "object_repr": "как будеет студент по-арабски",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Question\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 147,
+        "fields": {
+            "action_time": "2023-11-09T02:35:43.668Z",
+            "user": 1,
+            "content_type": 15,
+            "object_id": "14",
+            "object_repr": "как будеет школа по-арабски",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Question\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 148,
+        "fields": {
+            "action_time": "2023-11-09T02:35:50.924Z",
+            "user": 1,
+            "content_type": 15,
+            "object_id": "10",
+            "object_repr": "как будеет \"Да\" по-арабски",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Question\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 149,
+        "fields": {
+            "action_time": "2023-11-09T02:35:57.728Z",
+            "user": 1,
+            "content_type": 15,
+            "object_id": "13",
+            "object_repr": "как будеет \"стол\" по-арабски",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Question\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 150,
+        "fields": {
+            "action_time": "2023-11-09T02:36:04.113Z",
+            "user": 1,
+            "content_type": 15,
+            "object_id": "18",
+            "object_repr": "как будеет молоко по-арабски",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Question\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 151,
+        "fields": {
+            "action_time": "2023-11-09T02:36:11.697Z",
+            "user": 1,
+            "content_type": 15,
+            "object_id": "6",
+            "object_repr": "как будеет дверь по-арабски",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Question\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 152,
+        "fields": {
+            "action_time": "2023-11-09T02:36:16.908Z",
+            "user": 1,
+            "content_type": 15,
+            "object_id": "5",
+            "object_repr": "как будеет ручка по-арабски",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Question\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 153,
+        "fields": {
+            "action_time": "2023-11-09T03:05:22.537Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "2",
+            "object_repr": "второй урок",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 154,
+        "fields": {
+            "action_time": "2023-11-09T03:22:59.891Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "3",
+            "object_repr": "третий урок",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 155,
+        "fields": {
+            "action_time": "2023-11-09T03:23:37.139Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "3",
+            "object_repr": "третий урок",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 156,
+        "fields": {
+            "action_time": "2023-11-09T03:24:20.394Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "3",
+            "object_repr": "третий урок",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 157,
+        "fields": {
+            "action_time": "2023-11-09T03:26:30.149Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "3",
+            "object_repr": "третий урок",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 158,
+        "fields": {
+            "action_time": "2023-11-09T03:28:15.177Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "3",
+            "object_repr": "третий урок",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 159,
+        "fields": {
+            "action_time": "2023-11-09T03:29:17.164Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "3",
+            "object_repr": "третий урок",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 160,
+        "fields": {
+            "action_time": "2023-11-09T03:29:54.794Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "3",
+            "object_repr": "третий урок",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 161,
+        "fields": {
+            "action_time": "2023-11-09T03:30:25.221Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "3",
+            "object_repr": "третий урок",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 162,
+        "fields": {
+            "action_time": "2023-11-09T03:31:19.601Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "3",
+            "object_repr": "третий урок",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 163,
+        "fields": {
+            "action_time": "2023-11-09T03:47:53.477Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "4",
+            "object_repr": "четвертый урок",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 164,
+        "fields": {
+            "action_time": "2023-11-09T03:48:41.348Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "4",
+            "object_repr": "четвертый урок",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 165,
+        "fields": {
+            "action_time": "2023-11-09T03:49:16.799Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "4",
+            "object_repr": "четвертый урок",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 166,
+        "fields": {
+            "action_time": "2023-11-09T03:49:49.120Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "4",
+            "object_repr": "четвертый урок",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 167,
+        "fields": {
+            "action_time": "2023-11-09T03:50:33.317Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "4",
+            "object_repr": "четвертый урок",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 168,
+        "fields": {
+            "action_time": "2023-11-09T03:52:15.719Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "4",
+            "object_repr": "четвертый урок",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 169,
+        "fields": {
+            "action_time": "2023-11-09T04:03:12.493Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "2",
+            "object_repr": "второй урок",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 170,
+        "fields": {
+            "action_time": "2023-11-09T04:03:33.294Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "3",
+            "object_repr": "третий урок",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 171,
+        "fields": {
+            "action_time": "2023-11-09T04:03:40.433Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "4",
+            "object_repr": "четвертый урок",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 172,
+        "fields": {
+            "action_time": "2023-11-09T04:03:48.663Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "5",
+            "object_repr": "пятый урок",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 173,
+        "fields": {
+            "action_time": "2023-11-09T04:04:29.221Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "3",
+            "object_repr": "третий урок",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 174,
+        "fields": {
+            "action_time": "2023-11-09T04:04:45.774Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "4",
+            "object_repr": "четвертый урок",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 1,
+        "fields": {
+            "name": "Can add log entry",
+            "content_type": 1,
+            "codename": "add_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 2,
+        "fields": {
+            "name": "Can change log entry",
+            "content_type": 1,
+            "codename": "change_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 3,
+        "fields": {
+            "name": "Can delete log entry",
+            "content_type": 1,
+            "codename": "delete_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 4,
+        "fields": {
+            "name": "Can view log entry",
+            "content_type": 1,
+            "codename": "view_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 5,
+        "fields": {
+            "name": "Can add permission",
+            "content_type": 2,
+            "codename": "add_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 6,
+        "fields": {
+            "name": "Can change permission",
+            "content_type": 2,
+            "codename": "change_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 7,
+        "fields": {
+            "name": "Can delete permission",
+            "content_type": 2,
+            "codename": "delete_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 8,
+        "fields": {
+            "name": "Can view permission",
+            "content_type": 2,
+            "codename": "view_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 9,
+        "fields": {
+            "name": "Can add group",
+            "content_type": 3,
+            "codename": "add_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 10,
+        "fields": {
+            "name": "Can change group",
+            "content_type": 3,
+            "codename": "change_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 11,
+        "fields": {
+            "name": "Can delete group",
+            "content_type": 3,
+            "codename": "delete_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 12,
+        "fields": {
+            "name": "Can view group",
+            "content_type": 3,
+            "codename": "view_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 13,
+        "fields": {
+            "name": "Can add user",
+            "content_type": 4,
+            "codename": "add_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 14,
+        "fields": {
+            "name": "Can change user",
+            "content_type": 4,
+            "codename": "change_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 15,
+        "fields": {
+            "name": "Can delete user",
+            "content_type": 4,
+            "codename": "delete_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 16,
+        "fields": {
+            "name": "Can view user",
+            "content_type": 4,
+            "codename": "view_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 17,
+        "fields": {
+            "name": "Can add content type",
+            "content_type": 5,
+            "codename": "add_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 18,
+        "fields": {
+            "name": "Can change content type",
+            "content_type": 5,
+            "codename": "change_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 19,
+        "fields": {
+            "name": "Can delete content type",
+            "content_type": 5,
+            "codename": "delete_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 20,
+        "fields": {
+            "name": "Can view content type",
+            "content_type": 5,
+            "codename": "view_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 21,
+        "fields": {
+            "name": "Can add session",
+            "content_type": 6,
+            "codename": "add_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 22,
+        "fields": {
+            "name": "Can change session",
+            "content_type": 6,
+            "codename": "change_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 23,
+        "fields": {
+            "name": "Can delete session",
+            "content_type": 6,
+            "codename": "delete_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 24,
+        "fields": {
+            "name": "Can view session",
+            "content_type": 6,
+            "codename": "view_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 25,
+        "fields": {
+            "name": "Can add Lesson",
+            "content_type": 7,
+            "codename": "add_lesson"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 26,
+        "fields": {
+            "name": "Can change Lesson",
+            "content_type": 7,
+            "codename": "change_lesson"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 27,
+        "fields": {
+            "name": "Can delete Lesson",
+            "content_type": 7,
+            "codename": "delete_lesson"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 28,
+        "fields": {
+            "name": "Can view Lesson",
+            "content_type": 7,
+            "codename": "view_lesson"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 29,
+        "fields": {
+            "name": "Can add Said_question",
+            "content_type": 8,
+            "codename": "add_said_question"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 30,
+        "fields": {
+            "name": "Can change Said_question",
+            "content_type": 8,
+            "codename": "change_said_question"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 31,
+        "fields": {
+            "name": "Can delete Said_question",
+            "content_type": 8,
+            "codename": "delete_said_question"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 32,
+        "fields": {
+            "name": "Can view Said_question",
+            "content_type": 8,
+            "codename": "view_said_question"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 33,
+        "fields": {
+            "name": "Can add Lesson_words",
+            "content_type": 9,
+            "codename": "add_lesson_words"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 34,
+        "fields": {
+            "name": "Can change Lesson_words",
+            "content_type": 9,
+            "codename": "change_lesson_words"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 35,
+        "fields": {
+            "name": "Can delete Lesson_words",
+            "content_type": 9,
+            "codename": "delete_lesson_words"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 36,
+        "fields": {
+            "name": "Can view Lesson_words",
+            "content_type": 9,
+            "codename": "view_lesson_words"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 37,
+        "fields": {
+            "name": "Can add contact",
+            "content_type": 10,
+            "codename": "add_modelcontact"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 38,
+        "fields": {
+            "name": "Can change contact",
+            "content_type": 10,
+            "codename": "change_modelcontact"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 39,
+        "fields": {
+            "name": "Can delete contact",
+            "content_type": 10,
+            "codename": "delete_modelcontact"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 40,
+        "fields": {
+            "name": "Can view contact",
+            "content_type": 10,
+            "codename": "view_modelcontact"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 41,
+        "fields": {
+            "name": "Can add Quiz",
+            "content_type": 11,
+            "codename": "add_quiz"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 42,
+        "fields": {
+            "name": "Can change Quiz",
+            "content_type": 11,
+            "codename": "change_quiz"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 43,
+        "fields": {
+            "name": "Can delete Quiz",
+            "content_type": 11,
+            "codename": "delete_quiz"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 44,
+        "fields": {
+            "name": "Can view Quiz",
+            "content_type": 11,
+            "codename": "view_quiz"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 45,
+        "fields": {
+            "name": "Can add Question",
+            "content_type": 12,
+            "codename": "add_question"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 46,
+        "fields": {
+            "name": "Can change Question",
+            "content_type": 12,
+            "codename": "change_question"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 47,
+        "fields": {
+            "name": "Can delete Question",
+            "content_type": 12,
+            "codename": "delete_question"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 48,
+        "fields": {
+            "name": "Can view Question",
+            "content_type": 12,
+            "codename": "view_question"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 49,
+        "fields": {
+            "name": "Can add Answer",
+            "content_type": 13,
+            "codename": "add_answer"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 50,
+        "fields": {
+            "name": "Can change Answer",
+            "content_type": 13,
+            "codename": "change_answer"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 51,
+        "fields": {
+            "name": "Can delete Answer",
+            "content_type": 13,
+            "codename": "delete_answer"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 52,
+        "fields": {
+            "name": "Can view Answer",
+            "content_type": 13,
+            "codename": "view_answer"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 53,
+        "fields": {
+            "name": "Can add Quiz_words",
+            "content_type": 14,
+            "codename": "add_quiz_words"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 54,
+        "fields": {
+            "name": "Can change Quiz_words",
+            "content_type": 14,
+            "codename": "change_quiz_words"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 55,
+        "fields": {
+            "name": "Can delete Quiz_words",
+            "content_type": 14,
+            "codename": "delete_quiz_words"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 56,
+        "fields": {
+            "name": "Can view Quiz_words",
+            "content_type": 14,
+            "codename": "view_quiz_words"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 57,
+        "fields": {
+            "name": "Can add Quiz_Said_question",
+            "content_type": 15,
+            "codename": "add_quiz_said_question"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 58,
+        "fields": {
+            "name": "Can change Quiz_Said_question",
+            "content_type": 15,
+            "codename": "change_quiz_said_question"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 59,
+        "fields": {
+            "name": "Can delete Quiz_Said_question",
+            "content_type": 15,
+            "codename": "delete_quiz_said_question"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 60,
+        "fields": {
+            "name": "Can view Quiz_Said_question",
+            "content_type": 15,
+            "codename": "view_quiz_said_question"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 61,
+        "fields": {
+            "name": "Can add People_Ask",
+            "content_type": 16,
+            "codename": "add_people_ask"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 62,
+        "fields": {
+            "name": "Can change People_Ask",
+            "content_type": 16,
+            "codename": "change_people_ask"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 63,
+        "fields": {
+            "name": "Can delete People_Ask",
+            "content_type": 16,
+            "codename": "delete_people_ask"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 64,
+        "fields": {
+            "name": "Can view People_Ask",
+            "content_type": 16,
+            "codename": "view_people_ask"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 65,
+        "fields": {
+            "name": "Can add Parargraph",
+            "content_type": 17,
+            "codename": "add_parargraph"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 66,
+        "fields": {
+            "name": "Can change Parargraph",
+            "content_type": 17,
+            "codename": "change_parargraph"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 67,
+        "fields": {
+            "name": "Can delete Parargraph",
+            "content_type": 17,
+            "codename": "delete_parargraph"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 68,
+        "fields": {
+            "name": "Can view Parargraph",
+            "content_type": 17,
+            "codename": "view_parargraph"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 69,
+        "fields": {
+            "name": "Can add Story",
+            "content_type": 18,
+            "codename": "add_story"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 70,
+        "fields": {
+            "name": "Can change Story",
+            "content_type": 18,
+            "codename": "change_story"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 71,
+        "fields": {
+            "name": "Can delete Story",
+            "content_type": 18,
+            "codename": "delete_story"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 72,
+        "fields": {
+            "name": "Can view Story",
+            "content_type": 18,
+            "codename": "view_story"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$45uRN7hdMCPFcsY3PT1ZFq$zCHq9DclgCYwkWjdFS+/zZA4CAb1ss1x6rCYVZhITGQ=",
+            "last_login": "2023-11-09T04:02:54.134Z",
+            "is_superuser": true,
+            "username": "ayham",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2023-10-07T22:46:43Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 1,
+        "fields": {
+            "app_label": "admin",
+            "model": "logentry"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 2,
+        "fields": {
+            "app_label": "auth",
+            "model": "permission"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 3,
+        "fields": {
+            "app_label": "auth",
+            "model": "group"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 4,
+        "fields": {
+            "app_label": "auth",
+            "model": "user"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 5,
+        "fields": {
+            "app_label": "contenttypes",
+            "model": "contenttype"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 6,
+        "fields": {
+            "app_label": "sessions",
+            "model": "session"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 7,
+        "fields": {
+            "app_label": "home",
+            "model": "lesson"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 8,
+        "fields": {
+            "app_label": "home",
+            "model": "people_ask"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 9,
+        "fields": {
+            "app_label": "home",
+            "model": "said_question"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 10,
+        "fields": {
+            "app_label": "home",
+            "model": "lesson_words"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 11,
+        "fields": {
+            "app_label": "contact",
+            "model": "modelcontact"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 12,
+        "fields": {
+            "app_label": "tests",
+            "model": "quiz"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 13,
+        "fields": {
+            "app_label": "tests",
+            "model": "quiz_words"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 14,
+        "fields": {
+            "app_label": "tests",
+            "model": "quiz_said_question"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 15,
+        "fields": {
+            "app_label": "tests",
+            "model": "question"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 16,
+        "fields": {
+            "app_label": "tests",
+            "model": "answer"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 17,
+        "fields": {
+            "app_label": "story",
+            "model": "story"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 18,
+        "fields": {
+            "app_label": "story",
+            "model": "parargraph"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "8051mpguipr3srshxf05bn8sr22px6q7",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2hDaYSi4dO8ZyMBMbdVAUtqV8e7apAvd_vfef6lI2zrFrckSZ1Zn1anT75YoP6TsgO9UblXnWtZlTnpX9EGbvlaW5-Vw_w4matO37lPnE6MAIgdxeejIgRFCR721bnAWGEFG8egDDw7QeBMseIt9FhjV-wPQLDb5:1quSun:PuHc_ckAb_h5d589-K84kMocQVpJAbCOAlu1KRdBLuE",
+            "expire_date": "2023-11-05T00:30:25Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "99r7sta7mmnvlsyz52tumvs50v8hgt7d",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2hDaYSi4dO8ZyMBMbdVAUtqV8e7apAvd_vfef6lI2zrFrckSZ1Zn1anT75YoP6TsgO9UblXnWtZlTnpX9EGbvlaW5-Vw_w4matO37lPnE6MAIgdxeejIgRFCR721bnAWGEFG8egDDw7QeBMseIt9FhjV-wPQLDb5:1qz2Mb:q47d1EMvHgvzDQN9tqxglF0ZAM3z4Vk_HylfzkaVwpc",
+            "expire_date": "2023-11-17T22:10:01Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "d9ale1ka7vmrnridk15i3tqsl6per6x3",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2hDaYSi4dO8ZyMBMbdVAUtqV8e7apAvd_vfef6lI2zrFrckSZ1Zn1anT75YoP6TsgO9UblXnWtZlTnpX9EGbvlaW5-Vw_w4matO37lPnE6MAIgdxeejIgRFCR721bnAWGEFG8egDDw7QeBMseIt9FhjV-wPQLDb5:1qpMd0:68HO9t3syrCR74L0MSirYWiU1XKNRcUaYTaRCKkfGkA",
+            "expire_date": "2023-10-21T22:46:58Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "e7w5r0qhsrwbw1n3ir2q2nwn2ic9fnfm",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2hDaYSi4dO8ZyMBMbdVAUtqV8e7apAvd_vfef6lI2zrFrckSZ1Zn1anT75YoP6TsgO9UblXnWtZlTnpX9EGbvlaW5-Vw_w4matO37lPnE6MAIgdxeejIgRFCR721bnAWGEFG8egDDw7QeBMseIt9FhjV-wPQLDb5:1r0nzB:DMoMwOXc99nQEkezOnY9nfLQR8Rf4-mKm0RVhNehaFw",
+            "expire_date": "2023-11-22T19:13:09Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "lcnqn5w88kh2cq2vuti1mvqmce8v50ay",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2hDaYSi4dO8ZyMBMbdVAUtqV8e7apAvd_vfef6lI2zrFrckSZ1Zn1anT75YoP6TsgO9UblXnWtZlTnpX9EGbvlaW5-Vw_w4matO37lPnE6MAIgdxeejIgRFCR721bnAWGEFG8egDDw7QeBMseIt9FhjV-wPQLDb5:1qpMsa:tpmO06uVYuW0oQjCMC6_hv-HxZKJtpRr5U9fp0ZQAKY",
+            "expire_date": "2023-10-21T23:03:04Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "umelfbqf2avpx18cgem5j8vnki88pt8o",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2hDaYSi4dO8ZyMBMbdVAUtqV8e7apAvd_vfef6lI2zrFrckSZ1Zn1anT75YoP6TsgO9UblXnWtZlTnpX9EGbvlaW5-Vw_w4matO37lPnE6MAIgdxeejIgRFCR721bnAWGEFG8egDDw7QeBMseIt9FhjV-wPQLDb5:1r0wFq:CS8ZHM4LV0PahV83Tx88pgNfRZT4mnOEIPQsGt9ibKk",
+            "expire_date": "2023-11-23T04:02:54.190Z"
+        }
+    },
+    {
+        "model": "home.lesson",
+        "pk": 1,
+        "fields": {
+            "numper_of_lesson": "1",
+            "name": "первый урок",
+            "description": "<h1 >   حروف اللغة العربية  </h1>  \r\n<p>  دعونا نتعرف بعمق أكثر على حروف الهجاء العربية التي طالما تميزت بشكلها عن باقي حروف اللغات الأخرى مما أضاف رونق و مذاق خاص للغة العربية. تتميز اللغة العربية بأساليبها و أدواتها و مفرداتها و تركيباتها و حروف هجائها مما جعل اللغة العربية محل أنظار للكثير من الباحثين في اللغات و علماء اللغة ليغوصوا في بحر اللغة العربية. الحروف الأبجدية أو الحروف الهجائية هي تلك التي يتكون منها اللغة العربية. تعد اللغة العربية هي الأشمل بين اللغات و ذلك لأنها تتضمن على أكبر عدد من الأصوات التي يمكن أن ينطق بها الإنسان. إن حروف اللغة العربية مثلها مثل باقي اللغات الحية لها خصائص و طريقة لقراءتها و طريقة لكتابتها. عدد حروف اللغة العربية ثمانية و عشرون حرفاً و إن كان بعض العلماء يقولون إنها تسعة و عشرين حرفاً. و هذا الاختلاف بين علماء اللغة مرجعه الأساسي هو الاختلاف حول طبيعة تصنيف الهمزة في كونها حرف مستقل أم لا. و هناك ترتيباً لهذه الحروف حسب أهميتها في اللغة.\r\n\r\n<p>\r\n \r\n  <figure class=\"wp-block-table\">\r\n    <table class=\"table table-striped table-dark table-hover my-5\" style=\"font-family:arial; font-size: 30px;\">\r\n                 <tbody>\r\n            <tr>\r\n                <td>اللأحرف</td>\r\n                <td>بداية الكلمة</td>\r\n                <td>وسط الكلمة</td>\r\n                <td>نهاية الكلمة</td>\r\n                <td></td>\r\n            </tr>\r\n            <tr>\r\n                <td>ا</td>   \r\n                <td>ا</td>\r\n                <td>ـا</td>\r\n                <td>ـا</td>\r\n                <td>Alif</td>\r\n            </tr>\r\n            <tr>\r\n                <td>ب</td>\r\n                <td>بـ</td>\r\n                <td>ـبـ</td>\r\n                <td>ـب</td>\r\n                <td>bā</td>\r\n            </tr>\r\n            <tr>\r\n                <td>ت</td>\r\n                <td>تـ</td>\r\n                <td>ـتـ</td>\r\n                <td>ـت</td>\r\n                <td>tā</td>\r\n            \r\n            </tr>\r\n            <tr>\r\n                <td>ث</td>\r\n                <td>ثـ</td>\r\n                <td>ـثـ</td>\r\n                <td>ـث</td>\r\n                <td>thā</td>\r\n            </tr>\r\n            <tr>\r\n                <td>ج</td>\r\n                <td>جـ</td>\r\n                <td>ـجـ</td>\r\n                <td>ـج</td>\r\n                <td>jīm</td>\r\n            </tr>\r\n            <tr>\r\n                <td>ح</td>\r\n                <td>ح</td>\r\n                <td>ـحـ</td>\r\n                <td>ـح</td>\r\n                <td>ḥā</td>\r\n            </tr>\r\n            <tr>\r\n                <td>خ</td>\r\n                <td>خـ</td>\r\n                <td>ـخـ</td>\r\n                <td>ـخ</td>\r\n                <td>khā</td>\r\n            </tr>\r\n            <tr>\r\n                <td>د</td>\r\n                <td>د</td>\r\n                <td>ـد</td>\r\n                <td>ـد</td>\r\n                <td>dāl</td>\r\n            </tr>\r\n            <tr>\r\n                <td>ذ</td>\r\n                <td>ذ</td>\r\n                <td>ذ</td>\r\n                <td>ذ</td>\r\n                <td>thāl</td>\r\n            </tr>\r\n            <tr>\r\n                <td>ر</td>\r\n                <td>ر</td>\r\n                <td>ـر</td>\r\n                <td>ـر</td>\r\n                <td>rā</td>\r\n            </tr>\r\n            <tr>\r\n                <td>ز</td>\r\n                <td>ز</td>\r\n                <td>ـز</td>\r\n                <td>ـز</td>\r\n                <td>zā</td>\r\n            </tr>\r\n            <tr>\r\n                <td>س</td>\r\n                <td>سـ</td>\r\n                <td>ـسـ</td>\r\n                <td>ـس</td>\r\n                <td>sīn</td>\r\n            </tr>\r\n            <tr>\r\n                <td>ش</td>\r\n                <td>شـ</td>\r\n                <td>ـشـ</td>\r\n                <td>ش</td>\r\n                <td>shīn</td>\r\n            </tr>\r\n            <tr>\r\n                <td>ص</td>\r\n                <td>صـ</td>\r\n                <td>ـصـ</td>\r\n                <td>ـص</td>\r\n                <td>ṣād</td>\r\n            </tr>\r\n            <tr>\r\n                <td>ض</td>\r\n                <td>ضـ</td>\r\n                <td>ـضـ</td>\r\n                <td>ض</td>\r\n                <td>ḍād</td>\r\n            </tr>\r\n            <tr>\r\n                <td>ط</td>\r\n                <td>طـ</td>\r\n                <td>ـطـ</td>\r\n                <td>ـط</td>\r\n                <td>ṭā</td>\r\n            </tr>\r\n            <tr>\r\n                <td>ظ</td>\r\n                <td>ظـ</td>\r\n                <td>ـظـ</td>\r\n                <td>ـظ</td>\r\n                <td>ẓā</td>\r\n            </tr>\r\n            <tr>\r\n                <td>ع</td>\r\n                <td>عـ</td>\r\n                <td>ـعـ</td>\r\n                <td>ـع</td>\r\n                <td>ayn</td>\r\n            </tr>\r\n            <tr>\r\n                <td>غ</td>\r\n                <td>غـ</td>\r\n                <td>ـغـ</td>\r\n                <td>ـغ</td>\r\n                <td>ghayn</td>\r\n            </tr>\r\n            <tr>\r\n                <td>ف</td>\r\n                <td>فـ</td>\r\n                <td>ـفـ</td>\r\n                <td>ـف</td>\r\n                <td>fā</td>\r\n            </tr>\r\n            <tr>\r\n                <td>ق</td>\r\n                <td>قـ</td>\r\n                <td>ـقـ</td>\r\n                <td>ـق</td>\r\n                <td>qāf</td>\r\n            </tr>\r\n            <tr>\r\n                <td>ك</td>\r\n                <td>كـ</td>\r\n                <td>ـكـ</td>\r\n                <td>ـك</td>\r\n                <td>kāf</td>\r\n            </tr>\r\n            <tr>\r\n                <td>ل</td>\r\n                <td>لـ</td>\r\n                <td>ـلـ</td>\r\n                <td>ـل</td>\r\n                <td>lām</td>\r\n            </tr>\r\n            <tr>\r\n                <td>م</td>\r\n                <td>مـ</td>\r\n                <td>ـمـ</td>\r\n                <td>ـم</td>\r\n                <td>mīm</td>\r\n            </tr>\r\n            <tr>\r\n                <td>ن</td>\r\n                <td>نـ</td>\r\n                <td>ـنـ</td>\r\n                <td>ـن</td>\r\n                <td>nūn</td>\r\n            </tr>\r\n            <tr>\r\n                <td>هٓـ</td>\r\n                <td>هـ</td>\r\n                <td>ـهـ</td>\r\n                <td>ـه</td>\r\n                <td>hā</td>\r\n            </tr>\r\n            <tr>\r\n                <td>و</td>\r\n                <td>و</td>\r\n                <td>ـو</td>\r\n                <td>ـو</td>\r\n                <td>wāw</td>\r\n            </tr>\r\n            <tr>\r\n                <td>ي</td>\r\n                <td>يـ</td>\r\n                <td>ـيـ</td>\r\n                <td>ـي</td>\r\n                <td>yā</td>\r\n            </tr>\r\n        </tbody>  \r\n    </table>\r\n</figure>",
+            "leavel": "المستوى الاول",
+            "active": true,
+            "quiz": 1
+        }
+    },
+    {
+        "model": "home.lesson",
+        "pk": 2,
+        "fields": {
+            "numper_of_lesson": "2",
+            "name": "второй урок",
+            "description": "<h1> هذا</h1>\r\n\r\n\r\n\r\n  \r\n<main >\r\n        <section class=\"p-4\">\r\n            <div class=\"w-50 m-auto text-center bg-gradient  border border-gradient p-2 mb-2 border-opacity-25\"> \r\n                <h1 class=\"p-2\">هذا</h1>\r\n                <h1 class=\"p-2\">это </h1>\r\n                <h3 class=\"p-1 text-success\">( Мужской род)</h3>\r\n            </div>\r\n            <table class=\"table \">\r\n                <tbody>\r\n                    <tr>\r\n                        <td><h3 class=\"p-2 m-auto\"><span class=\"text-success\">هذا</span> باب</h3></td>\r\n                        <td><h5 class=\"p-3 m-auto \"><em> Haza Baab</em></h5></td>\r\n                        <td  dir=\"ltr\"><h3 class=\"p-2 m-auto\"><span class=\"text-success\">это</span> дверь</h3></td>\r\n                    </tr>\r\n                    <tr>\r\n                        <td><h3 class=\"p-2\"><span class=\"text-success\">هذا</span> دفتر</h3></td>\r\n                        <td><h5 class=\"p-3 m-auto \"><em> Haza Dftr</em></h5></td>\r\n                        <td  dir=\"ltr\"><h3 class=\"p-2 m-auto\"><span class=\"text-success\">это</span> тетрадь</h3></td>\r\n                    </tr>\r\n                    <tr>\r\n                        <td><h3 class=\"p-2\"><span class=\"text-success\">هذا</span> قلم</h3></td>\r\n                        <td><h5 class=\"p-3 m-auto \"><em> Haza Qalm</em></h5></td>\r\n                        <td  dir=\"ltr\"><h3 class=\"p-2 m-auto\"><span class=\"text-success\">это</span> ркчка</h3></td>\r\n                    </tr>\r\n                    <tr>\r\n                        <td><h3 class=\"p-2\"><span class=\"text-success\">هذا</span> قمر</h3></td>\r\n                        <td><h5 class=\"p-3 m-auto \"><em> Haza Qamr</em></h5></td>\r\n                        <td  dir=\"ltr\"><h3 class=\"p-2 m-auto\"><span class=\"text-success\">это</span> луна</h3></td>\r\n                    </tr>\r\n                    <tr>\r\n                        <td><h3 class=\"p-2\"><span class=\"text-success\">هذا</span> هاتف</h3></td>\r\n                        <td><h5 class=\"p-3 m-auto \"><em> Haza Hatf</em></h5></td>\r\n                        <td  dir=\"ltr\"><h3 class=\"p-2 m-auto\"><span class=\"text-success\">это</span> телефон</h3></td>\r\n                    </tr>\r\n                    <tr>\r\n                        <td><h3 class=\"p-2\"><span class=\"text-success\">هذا</span> كرسي</h3></td>\r\n                        <td><h5 class=\"p-3 m-auto \"><em> Haza Krse</em></h5></td>\r\n                        <td  dir=\"ltr\"><h3 class=\"p-2 m-auto\"><span class=\"text-success\">это</span> стул</h3></td>\r\n                    </tr>\r\n                </tbody>\r\n            </table>\r\n        </section>\r\n\r\n        <section class=\"p-5\">\r\n            <div class=\"w-50 m-auto text-center bg-gradient  border border-gradient p-2 mb-2 border-opacity-25\" > \r\n                <h1 class=\"p-2\">ما هذا</h1>\r\n                <h1 class=\"p-2\">что это </h1>\r\n            </div>\r\n            <table class=\"table \">\r\n                <tbody>\r\n                    <tr>\r\n                        <td><h3 class=\"p-2 m-auto\"><span class=\"text-success\">ما</span> هذا ؟</h3></td>\r\n                        <td><h5 class=\"p-3 m-auto \"><em> MA Haza </em></h5></td>\r\n                        <td  dir=\"ltr\"><h3 class=\"p-2 m-auto\"><span class=\"text-success\">что</span> это ? </h3></td>\r\n                    </tr>\r\n                    <tr>\r\n                        <td>\r\n                            <h3 class=\"p-2\">ما هذا ؟ </h3>\r\n                            <h3 class=\"p-2\"> هذا بيت </h3>\r\n                        </td>\r\n                        <td>\r\n                            <h5 class=\"p-3 m-auto \"><em>MA Haza </em></h5>\r\n                            <h5 class=\"p-3 m-auto \"><em> Haza Bet </em></h5>\r\n                        </td>\r\n                        <td dir=\"ltr\">\r\n                            <h3 class=\"p-2 m-auto\">что это ?</h3>\r\n                            <h3 class=\"p-2 m-auto\">это дом</h3>\r\n                        </td>\r\n                    </tr>\r\n                    <tr>\r\n                        <td>\r\n                            <h3 class=\"p-2\"> <span class=\"text-success\">أ</span>هذا قلم <span class=\"text-success\">؟</span> </h3>\r\n                            <h3 class=\"p-2\"> <span class=\"text-success\">نعم</span> ,  هذا قلم  </h3>\r\n                        </td>\r\n                        <td>\r\n                            <h5 class=\"p-3 m-auto \"><em> AHaza Qalm </em></h5>\r\n                            <h5 class=\"p-3 m-auto \"><em>Naam, Haza Qalm </em></h5>\r\n                        </td>\r\n                        <td dir=\"ltr\">\r\n                            <h3 class=\"p-2 m-auto\"> это ручка <span class=\"text-success\">?</span>   </h3>\r\n                            <h3 class=\"p-2 m-auto\"><span class=\"text-success\">да</span> , это ручка </h3>\r\n                        </td>\r\n                    </tr>\r\n                    <tr>\r\n                        <td>\r\n                            <h3 class=\"p-2\"> <span class=\"text-success\">أ</span>هذا هاتف <span class=\"text-success\">؟</span> </h3>\r\n                            <h3 class=\"p-2\"> <span class=\"text-success\">لا</span> ,  هذا دفتر  </h3>\r\n                        </td>\r\n                        <td>\r\n                            <h5 class=\"p-3 m-auto \"><em> AHaza Hatf </em></h5>\r\n                            <h5 class=\"p-3 m-auto \"><em>Naam, Haza Hatf </em></h5>\r\n                        </td>\r\n                        <td dir=\"ltr\">\r\n                            <h3 class=\"p-2 m-auto\"> это телефон <span class=\"text-success\">?</span>   </h3>\r\n                            <h3 class=\"p-2 m-auto\"><span class=\"text-success\">нет</span> , это тетрадь </h3>\r\n                        </td>\r\n                    </tr>\r\n\r\n    \r\n                </tbody>\r\n            </table>\r\n        </section>\r\n</main>",
+            "leavel": "المستوى الاول",
+            "active": true,
+            "quiz": 2
+        }
+    },
+    {
+        "model": "home.lesson",
+        "pk": 3,
+        "fields": {
+            "numper_of_lesson": "3",
+            "name": "третий урок",
+            "description": "<h1> هذه</h1>  \r\n\r\n\r\n\r\n<main>\r\n<section class=\"p-4\">\r\n                <div class=\"w-50 m-auto text-center bg-gradient  border border-gradient p-2 mb-2 border-opacity-25\"> \r\n                    <h1 class=\"p-2\">هذه</h1>\r\n                    <h1 class=\"p-2\">это </h1>\r\n                    <h3 class=\"p-1 text-success\">( женской род)</h3>\r\n                </div>\r\n                <table class=\"table \">\r\n                    <tbody>\r\n                        <tr>\r\n                            <td><h3 class=\"p-2 m-auto\"><span class=\"text-success\">هذه</span> سيارة</h3></td>\r\n                            <td><h5 class=\"p-3 m-auto \"><em> Hazh Saeara</em></h5></td>\r\n                            <td  dir=\"ltr\"><h3 class=\"p-2 m-auto\"><span class=\"text-success\">это</span> машина</h3></td>\r\n                        </tr>\r\n                        <tr>\r\n                            <td><h3 class=\"p-2\"><span class=\"text-success\">هذه</span> طاولة</h3></td>\r\n                            <td><h5 class=\"p-3 m-auto \"><em> Hazh Tawla</em></h5></td>\r\n                            <td  dir=\"ltr\"><h3 class=\"p-2 m-auto\"><span class=\"text-success\">это</span> стол</h3></td>\r\n                        </tr>\r\n                        <tr>\r\n                            <td><h3 class=\"p-2\"><span class=\"text-success\">هذه</span> نافذة</h3></td>\r\n                            <td><h5 class=\"p-3 m-auto \"><em> Hazh Nafeza</em></h5></td>\r\n                            <td  dir=\"ltr\"><h3 class=\"p-2 m-auto\"><span class=\"text-success\">это</span> окно</h3></td>\r\n                        </tr>\r\n                        <tr>\r\n                            <td><h3 class=\"p-2\"><span class=\"text-success\">هذه</span> دراجة</h3></td>\r\n                            <td><h5 class=\"p-3 m-auto \"><em> Hazh Daraga</em></h5></td>\r\n                            <td  dir=\"ltr\"><h3 class=\"p-2 m-auto\"><span class=\"text-success\">это</span> велосипед</h3></td>\r\n                        </tr>\r\n                        <tr>\r\n                            <td><h3 class=\"p-2\"><span class=\"text-success\">هذه</span> مدرسة</h3></td>\r\n                            <td><h5 class=\"p-3 m-auto \"><em> Hazh Madrasa</em></h5></td>\r\n                            <td  dir=\"ltr\"><h3 class=\"p-2 m-auto\"><span class=\"text-success\">это</span> школа</h3></td>\r\n                        </tr>\r\n                        <tr>\r\n                            <td><h3 class=\"p-2\"><span class=\"text-success\">هذه</span> ساعة</h3></td>\r\n                            <td><h5 class=\"p-3 m-auto \"><em> Hazh sāaa</em></h5></td>\r\n                            <td  dir=\"ltr\"><h3 class=\"p-2 m-auto\"><span class=\"text-success\">это</span> часы</h3></td>\r\n                        </tr>\r\n                    </tbody>\r\n                </table>\r\n            </section>\r\n\r\n<section class=\"p-5\">\r\n                <div class=\"w-50 m-auto text-center bg-gradient  border border-gradient p-2 mb-2 border-opacity-25\" > \r\n                    <h1 class=\"p-2\">من هذا</h1>\r\n                    <h1 class=\"p-2\">من هذه</h1>\r\n                    <h1 class=\"p-2\">кто это </h1>\r\n                </div>\r\n                <table class=\"table \">\r\n                    <tbody>\r\n                        <tr>\r\n                            <td><h3 class=\"p-2 m-auto\"><span class=\"text-success\">من</span> هذا ؟</h3></td>\r\n                            <td><h5 class=\"p-3 m-auto \"><em> Mn Hazh</em></h5></td>\r\n                            <td  dir=\"ltr\"><h3 class=\"p-2 m-auto\"><span class=\"text-success\">кто</span> это ? </h3></td>\r\n                        </tr>\r\n                        <tr>\r\n                            <td>\r\n                                <h3 class=\"p-2\">من هذا ؟ </h3>\r\n                                <h3 class=\"p-2\"> هذا محمد </h3>\r\n                            </td>\r\n                            <td>\r\n                                <h5 class=\"p-3 m-auto \"><em> Mn Haza</em></h5>\r\n                                <h5 class=\"p-3 m-auto \"><em> Haza muhammad</em></h5>\r\n                            </td>\r\n                            <td dir=\"ltr\">\r\n                                <h3 class=\"p-2 m-auto\">кто это ?</h3>\r\n                                <h3 class=\"p-2 m-auto\">это мухаммад</h3>\r\n                            </td>\r\n                        </tr>\r\n                        <tr>\r\n                            <td>\r\n                                <h3 class=\"p-2\"> <span class=\"text-success\">أ</span>هذه ناتاشا <span class=\"text-success\">؟</span> </h3>\r\n                                <h3 class=\"p-2\"> <span class=\"text-success\">نعم</span> ,  هذه ناتاشا  </h3>\r\n                            </td>\r\n                            <td>\r\n                                <h5 class=\"p-3 m-auto \"><em> AHazh Natasha</em></h5>\r\n                                <h5 class=\"p-3 m-auto \"><em>Naam ,Hazh Natasha</em></h5>\r\n                            </td>\r\n                            <td dir=\"ltr\">\r\n                                <h3 class=\"p-2 m-auto\"> это наташа <span class=\"text-success\">?</span>   </h3>\r\n                                <h3 class=\"p-2 m-auto\"><span class=\"text-success\">да</span> , это наташа </h3>\r\n                            </td>\r\n                        </tr>\r\n                    </tbody>\r\n                </table>\r\n            </section>\r\n</main>",
+            "leavel": "المستوى الاول",
+            "active": true,
+            "quiz": 3
+        }
+    },
+    {
+        "model": "home.lesson",
+        "pk": 4,
+        "fields": {
+            "numper_of_lesson": "4",
+            "name": "четвертый урок",
+            "description": "<h1> ذلك / تلك</h1>  \r\n\r\n\r\n\r\n<main>\r\n        <section class=\"p-4\">\r\n            <div class=\"w-50 m-auto text-center bg-gradient  border border-gradient p-2 mb-2 border-opacity-25\"> \r\n                <h1 class=\"p-2\">ذلك</h1>\r\n                <h1 class=\"p-2\">Тот </h1>\r\n                <h3 class=\"p-1 text-success\">( Мужской род)</h3>\r\n            </div>\r\n            <table class=\"table \">\r\n                <tbody>\r\n                    <tr>\r\n                        <td><h3 class=\"p-2 m-auto\"> <span class=\"text-success\">هذا</span> بيت <span class=\"text-success\">وذلك</span> ملعب</h3></td>\r\n                        <td><h5 class=\"p-3 m-auto \"><em> Haza Bet wa zalk malab</em></h5></td>\r\n                        <td  dir=\"ltr\"><h3 class=\"p-2 m-auto\"><span class=\"text-success\">это</span> дом <span class=\"text-success\">Тот</span> стадион</h3></td>\r\n                    </tr>\r\n                    <tr>\r\n                        <td><h3 class=\"p-2 m-auto\"> <span class=\"text-success\">هذا</span> قط <span class=\"text-success\">وذلك</span> كلب</h3></td>\r\n                        <td><h5 class=\"p-3 m-auto \"><em> Haza qt wa zalk kalb</em></h5></td>\r\n                        <td  dir=\"ltr\"><h3 class=\"p-2 m-auto\"><span class=\"text-success\">это</span> кот <span class=\"text-success\">Тот</span> собака</h3></td>\r\n                    </tr>\r\n                    <tr>\r\n                        <td><h3 class=\"p-2 m-auto\"> <span class=\"text-success\">هذا</span> سكر <span class=\"text-success\">وذلك</span> حليب</h3></td>\r\n                        <td><h5 class=\"p-3 m-auto \"><em> Haza skr wa zalk haleb</em></h5></td>\r\n                        <td  dir=\"ltr\"><h3 class=\"p-2 m-auto\"><span class=\"text-success\">это</span> сахар <span class=\"text-success\">Тот </span> молоко</h3></td>\r\n                    </tr>\r\n                    <tr>\r\n                        <td><h3 class=\"p-2 m-auto\"> <span class=\"text-success\">هذا</span> طالب <span class=\"text-success\">وذلك</span> استاذ</h3></td>\r\n                        <td><h5 class=\"p-3 m-auto \"><em> Haza talb wa zalk astaz</em></h5></td>\r\n                        <td  dir=\"ltr\"><h3 class=\"p-2 m-auto\"><span class=\"text-success\">это</span> студент <span class=\"text-success\">Тот</span> учитель</h3></td>\r\n                    </tr>\r\n                    <tr>\r\n                        <td><h3 class=\"p-2 m-auto\"><span class=\"text-success\">ما</span> ذلك ؟</h3></td>\r\n                        <td><h5 class=\"p-3 m-auto \"><em> MA zalk </em></h5></td>\r\n                        <td  dir=\"ltr\"><h3 class=\"p-2 m-auto\"><span class=\"text-success\">что</span> Тот ? </h3></td>\r\n                    </tr>\r\n                    <tr>\r\n                        <td><h3 class=\"p-2 m-auto\">ما <span class=\"text-success\">ذلك</span> ؟ <span class=\"text-success\">ذلك</span> سرير</h3></td>\r\n                        <td><h5 class=\"p-3 m-auto \"><em> MA zalk , zalk sarer</em></h5></td>\r\n                        <td  dir=\"ltr\"><h3 class=\"p-2 m-auto\">что тот ? тот кравать </h3></td>\r\n                    </tr>\r\n                </tbody>\r\n            </table>\r\n        </section>\r\n<section class=\"p-4\">\r\n            <div class=\"w-50 m-auto text-center bg-gradient  border border-gradient p-2 mb-2 border-opacity-25\"> \r\n                <h1 class=\"p-2\">تلك</h1>\r\n                <h1 class=\"p-2\">Тот </h1>\r\n                <h3 class=\"p-1 text-success\">( женской род)</h3>\r\n            </div>\r\n            <table class=\"table \">\r\n                <tbody>\r\n                    <tr>\r\n                        <td><h3 class=\"p-2 m-auto\"> من هذه و من تلك ؟</h3></td>\r\n                        <td><h5 class=\"p-3 m-auto \"><em> MN hazh Wa MN Tlk</em></h5></td>\r\n                        <td  dir=\"ltr\"><h3 class=\"p-2 m-auto\">кто это и кто тот ?</h3></td>\r\n                    </tr>\r\n                    <tr>\r\n                        <td><h3 class=\"p-2 m-auto\"> هذه عليا وتلك ميس</h3></td>\r\n                        <td><h5 class=\"p-3 m-auto \"><em> hazh Alea Wa Tlk miss</em></h5></td>\r\n                        <td  dir=\"ltr\"><h3 class=\"p-2 m-auto\">это алия и тот месс</h3></td>\r\n                    </tr>\r\n                    <tr>\r\n                        <td><h3 class=\"p-2 m-auto\"> هذه طبيبة وتلك مهندسة</h3></td>\r\n                        <td><h5 class=\"p-3 m-auto \"><em> hazh tabeba Wa Tlk mohndsa</em></h5></td>\r\n                        <td  dir=\"ltr\"><h3 class=\"p-2 m-auto\">это врач и тот инженер</h3></td>\r\n                    </tr>\r\n                    <tr>\r\n                        <td><h3 class=\"p-2 m-auto\">هذه مدرسة و تلك جامعة</h3></td>\r\n                        <td><h5 class=\"p-3 m-auto \"><em> hazh madrasa Wa Tlk jameā</em></h5></td>\r\n                        <td  dir=\"ltr\"><h3 class=\"p-2 m-auto\">это школа и тот университет</h3></td>\r\n                    </tr>\r\n\r\n                </tbody>\r\n            </table>\r\n        </section>\r\n<main>",
+            "leavel": "المستوى الاول",
+            "active": true,
+            "quiz": 4
+        }
+    },
+    {
+        "model": "home.lesson",
+        "pk": 5,
+        "fields": {
+            "numper_of_lesson": "5",
+            "name": "пятый урок",
+            "description": "<h1>اللام الشمسية </h1>  \r\n\r\n\r\n\r\n\r\n\r\n<main>\r\n            <section class=\"p-4\">\r\n\r\n                <div dir=\"ltr\" class=\"w-100 m-auto  bg-gradient  border border-gradient p-3 mb-2 border-opacity-25\"> \r\n                    <h5></h5>\r\n                        <h3 dir=\"rtl\">النكرة: كتاب</h3>\r\n                        <h3 dir=\"rtl\">المعرفة  : <span class=\"text-success\">الـ</span> + كتاب</h3>\r\n                        <h5 >Показателем определённого состояния существительного\r\n                            и прилагательного является определённый артикль [ал], кото\r\n                            рый ставится перед словом и пишется слитно с ним. При\r\n                            склонении слова в определённом состоянии рисунок слова во\r\n                            всех падежах одинаковый</h5>    \r\n                            <h3>['ал-кита:бу] книга الكِتَابُ</h3>   \r\n                            <h3>['ал-кита:ба] книгу الكِتابَ</h3>\r\n                            <h3>[ал-кита:би] (из, от, для…) книги الكِتابِ</h3>\r\n                </div>\r\n\r\n                <div dir=\"ltr\" class=\"w-100 m-auto bg-gradient  border border-gradient p-3 mb-2 border-opacity-25\"> \r\n                    <h5>При присоединении к слову определённого артикля звук\r\n                        [л] в артикле в некоторых случаях ассимилируется с первым\r\n                        звуком слова, то есть уподобляется ему. По этому признаку\r\n                        буквы арабского алфавита делятся на две группы:<br> «солнеч\r\n                        ные», перед которыми артикль ассимилируется (как [ш] в сло\r\n                        ве[шамс] «солнце»),и «лунные», оставляющие звук [л]\r\n                        без изменения (как [к] в слове[камар] «луна») .<br> Что ка\r\n                        сается написания, то артикль изображается всегда одинаково:\r\n                        , а пре язношение в случае необходимости показывается\r\n                        огласовками:</h5>\r\n                        <h3>['аш-шамсу] солнце</h3>\r\n                        <h3>['ал-камару] луна</h3>\r\n                </div>\r\n\r\n                <table class=\"table table-hover\">\r\n                    <thead>\r\n                        <tr>\r\n                            <th class=\"h2 p-4 m-auto text-center text-success\" scope=\"col\">اللام الشمسية<br>«солнеч- ные» </th>\r\n                            <th class=\"h2 p-4 m-auto text-center text-success\" scope=\"col\">اللام القمرية<br>«лунные» </th>\r\n                        </tr>\r\n                    </thead>\r\n                    <tbody>\r\n                        <tr>\r\n                            <td><h3 class=\"p-2 m-auto text-center \"><span class=\"text-success\">(ت)</span> التفاح</h3></td>\r\n                            <td><h3 class=\"p-2 m-auto text-center \"><span class=\"text-success\">(أ)</span> اللّاعب</h3></td>\r\n                        </tr>\r\n                        <tr>\r\n                            <td><h3 class=\"p-2 m-auto text-center \"><span class=\"text-success\">(ث)</span> الثقافة </h3></td>\r\n                            <td><h3 class=\"p-2 m-auto text-center \"><span class=\"text-success\">(ب)</span> الْباب</h3></td>\r\n                        </tr>\r\n                        <tr>\r\n                            <td><h3 class=\"p-2 m-auto text-center \"><span class=\"text-success\">(د)</span> الدفتر</h3></td>\r\n                            <td><h3 class=\"p-2 m-auto text-center \"><span class=\"text-success\">(ج)</span> الْجامعة</h3></td>\r\n                        </tr>\r\n                        <tr>\r\n                            <td><h3 class=\"p-2 m-auto text-center \"><span class=\"text-success\">(ذ)</span> الذَّرَّة </h3></td>\r\n                            <td><h3 class=\"p-2 m-auto text-center \"><span class=\"text-success\">(ح)</span> الْحب</h3></td>\r\n                        </tr>\r\n                        <tr>\r\n                            <td><h3 class=\"p-2 m-auto text-center \"><span class=\"text-success\">(ر)</span> الربح   </h3></td>\r\n                            <td><h3 class=\"p-2 m-auto text-center \"><span class=\"text-success\">(خ)</span> الْخير</h3></td>\r\n                        </tr>\r\n                        <tr>\r\n                            <td><h3 class=\"p-2 m-auto text-center \"><span class=\"text-success\">(ز)</span> الزَّيارة</h3></td>\r\n                            <td><h3 class=\"p-2 m-auto text-center \"><span class=\"text-success\">(ع)</span> الْعين</h3></td>\r\n                        </tr>\r\n                        <tr>\r\n                            <td><h3 class=\"p-2 m-auto text-center \"><span class=\"text-success\">(س)</span> السرير</h3></td>\r\n                            <td><h3 class=\"p-2 m-auto text-center \"><span class=\"text-success\">(غ)</span> الْغرب</h3></td>\r\n                        </tr>\r\n                        <tr>\r\n                            <td><h3 class=\"p-2 m-auto text-center \"><span class=\"text-success\">(ش)</span> الشَّمس </h3></td>\r\n                            <td><h3 class=\"p-2 m-auto text-center \"><span class=\"text-success\">(ف)</span> الْفاكهة</h3></td>\r\n                        </tr>\r\n                        <tr>\r\n                            <td><h3 class=\"p-2 m-auto text-center \"><span class=\"text-success\">(ص)</span> الصدر</h3></td>\r\n                            <td><h3 class=\"p-2 m-auto text-center \"><span class=\"text-success\">(ق)</span> الْقلم</h3></td>\r\n                        </tr>\r\n                        <tr>\r\n                            <td><h3 class=\"p-2 m-auto text-center \"><span class=\"text-success\">(ض)</span> الضرب</h3></td>\r\n                            <td><h3 class=\"p-2 m-auto text-center \"><span class=\"text-success\">(ك)</span> الْكرسي</h3></td>\r\n                        </tr>\r\n                        <tr>\r\n                            <td><h3 class=\"p-2 m-auto text-center \"><span class=\"text-success\">(ط)</span> الّطَّبيب</h3></td>\r\n                            <td><h3 class=\"p-2 m-auto text-center \"><span class=\"text-success\">(م)</span> الْمدرسة</h3></td>\r\n                        </tr>\r\n                        <tr>\r\n                            <td><h3 class=\"p-2 m-auto text-center \"><span class=\"text-success\">(ظ)</span> الظلام </h3></td>\r\n                            <td><h3 class=\"p-2 m-auto text-center \"><span class=\"text-success\">(ه)</span> الْهاتف</h3></td>\r\n                        </tr>\r\n                        <tr>\r\n                            <td><h3 class=\"p-2 m-auto text-center \"><span class=\"text-success\">(ل)</span> اللواء </h3></td>\r\n                            <td><h3 class=\"p-2 m-auto text-center \"><span class=\"text-success\">(و)</span> الْورد</h3></td>\r\n                        </tr>\r\n                        <tr>\r\n                            <td><h3 class=\"p-2 m-auto text-center \"><span class=\"text-success\">(ن)</span> النار </h3></td>\r\n                            <td><h3 class=\"p-2 m-auto text-center \"><span class=\"text-success\">(ي)</span> الْيد</h3></td>\r\n                        </tr>\r\n                    </tbody>\r\n                </table>\r\n            </section>\r\n        </main>",
+            "leavel": "المستوى الاول",
+            "active": true,
+            "quiz": 5
+        }
+    },
+    {
+        "model": "home.said_question",
+        "pk": 1,
+        "fields": {
+            "lesson": 1,
+            "question": "ما هو عدد الاحرف العربية",
+            "said_description": "test test"
+        }
+    },
+    {
+        "model": "home.said_question",
+        "pk": 2,
+        "fields": {
+            "lesson": 1,
+            "question": "ما هو عدد الاحرف العربية",
+            "said_description": "test test 2"
+        }
+    },
+    {
+        "model": "home.said_question",
+        "pk": 3,
+        "fields": {
+            "lesson": 2,
+            "question": "ما هو عدد الاحرف العربية",
+            "said_description": "test test test 3"
+        }
+    },
+    {
+        "model": "home.lesson_words",
+        "pk": 1,
+        "fields": {
+            "lesson": 1,
+            "lesson_word_id": 1,
+            "word_AR": "بداية الكلمة",
+            "word_RU": "начало слова"
+        }
+    },
+    {
+        "model": "home.lesson_words",
+        "pk": 2,
+        "fields": {
+            "lesson": 1,
+            "lesson_word_id": 2,
+            "word_AR": "وسط الكلمة",
+            "word_RU": "середина слова"
+        }
+    },
+    {
+        "model": "home.lesson_words",
+        "pk": 3,
+        "fields": {
+            "lesson": 1,
+            "lesson_word_id": 3,
+            "word_AR": "نهاية الكلمة",
+            "word_RU": "конец слова"
+        }
+    },
+    {
+        "model": "home.lesson_words",
+        "pk": 4,
+        "fields": {
+            "lesson": 2,
+            "lesson_word_id": 4,
+            "word_AR": "هذا",
+            "word_RU": "это"
+        }
+    },
+    {
+        "model": "home.lesson_words",
+        "pk": 5,
+        "fields": {
+            "lesson": 2,
+            "lesson_word_id": 5,
+            "word_AR": "قلم",
+            "word_RU": "ркчка"
+        }
+    },
+    {
+        "model": "home.lesson_words",
+        "pk": 6,
+        "fields": {
+            "lesson": 2,
+            "lesson_word_id": 6,
+            "word_AR": "قمر",
+            "word_RU": "луна"
+        }
+    },
+    {
+        "model": "home.lesson_words",
+        "pk": 7,
+        "fields": {
+            "lesson": 2,
+            "lesson_word_id": 7,
+            "word_AR": "دفتر",
+            "word_RU": "тетрадь"
+        }
+    },
+    {
+        "model": "home.lesson_words",
+        "pk": 8,
+        "fields": {
+            "lesson": 2,
+            "lesson_word_id": 8,
+            "word_AR": "كرسي",
+            "word_RU": "стул"
+        }
+    },
+    {
+        "model": "home.lesson_words",
+        "pk": 9,
+        "fields": {
+            "lesson": 2,
+            "lesson_word_id": 9,
+            "word_AR": "هاتف",
+            "word_RU": "телефон"
+        }
+    },
+    {
+        "model": "home.lesson_words",
+        "pk": 10,
+        "fields": {
+            "lesson": 2,
+            "lesson_word_id": 10,
+            "word_AR": "باب",
+            "word_RU": "дверь"
+        }
+    },
+    {
+        "model": "home.lesson_words",
+        "pk": 11,
+        "fields": {
+            "lesson": 2,
+            "lesson_word_id": 11,
+            "word_AR": "نعم",
+            "word_RU": "да"
+        }
+    },
+    {
+        "model": "home.lesson_words",
+        "pk": 12,
+        "fields": {
+            "lesson": 2,
+            "lesson_word_id": 12,
+            "word_AR": "لا",
+            "word_RU": "нет"
+        }
+    },
+    {
+        "model": "home.lesson_words",
+        "pk": 13,
+        "fields": {
+            "lesson": 4,
+            "lesson_word_id": 1,
+            "word_AR": "بيت",
+            "word_RU": "дом"
+        }
+    },
+    {
+        "model": "home.lesson_words",
+        "pk": 14,
+        "fields": {
+            "lesson": 4,
+            "lesson_word_id": 2,
+            "word_AR": "ملعب",
+            "word_RU": "стадион"
+        }
+    },
+    {
+        "model": "home.lesson_words",
+        "pk": 15,
+        "fields": {
+            "lesson": 4,
+            "lesson_word_id": 3,
+            "word_AR": "كلب",
+            "word_RU": "собака"
+        }
+    },
+    {
+        "model": "home.lesson_words",
+        "pk": 16,
+        "fields": {
+            "lesson": 4,
+            "lesson_word_id": 4,
+            "word_AR": "قط",
+            "word_RU": "кот"
+        }
+    },
+    {
+        "model": "home.lesson_words",
+        "pk": 17,
+        "fields": {
+            "lesson": 4,
+            "lesson_word_id": 5,
+            "word_AR": "حليب",
+            "word_RU": "молоко"
+        }
+    },
+    {
+        "model": "home.lesson_words",
+        "pk": 18,
+        "fields": {
+            "lesson": 4,
+            "lesson_word_id": 6,
+            "word_AR": "سكر",
+            "word_RU": "сахар"
+        }
+    },
+    {
+        "model": "home.lesson_words",
+        "pk": 19,
+        "fields": {
+            "lesson": 4,
+            "lesson_word_id": 7,
+            "word_AR": "طالب",
+            "word_RU": "студент"
+        }
+    },
+    {
+        "model": "home.lesson_words",
+        "pk": 20,
+        "fields": {
+            "lesson": 4,
+            "lesson_word_id": 8,
+            "word_AR": "استاذ",
+            "word_RU": "учитель"
+        }
+    },
+    {
+        "model": "home.lesson_words",
+        "pk": 21,
+        "fields": {
+            "lesson": 4,
+            "lesson_word_id": 9,
+            "word_AR": "سرير",
+            "word_RU": "кравать"
+        }
+    },
+    {
+        "model": "home.lesson_words",
+        "pk": 22,
+        "fields": {
+            "lesson": 4,
+            "lesson_word_id": 10,
+            "word_AR": "طبيبة",
+            "word_RU": "врач"
+        }
+    },
+    {
+        "model": "home.lesson_words",
+        "pk": 23,
+        "fields": {
+            "lesson": 4,
+            "lesson_word_id": 11,
+            "word_AR": "مهندسة",
+            "word_RU": "инженер"
+        }
+    },
+    {
+        "model": "home.lesson_words",
+        "pk": 24,
+        "fields": {
+            "lesson": 4,
+            "lesson_word_id": 12,
+            "word_AR": "مدرسة",
+            "word_RU": "школа"
+        }
+    },
+    {
+        "model": "home.lesson_words",
+        "pk": 25,
+        "fields": {
+            "lesson": 4,
+            "lesson_word_id": 13,
+            "word_AR": "جامعة",
+            "word_RU": "университет"
+        }
+    },
+    {
+        "model": "home.lesson_words",
+        "pk": 26,
+        "fields": {
+            "lesson": 5,
+            "lesson_word_id": 1,
+            "word_AR": "التفاح",
+            "word_RU": "Яблоки"
+        }
+    },
+    {
+        "model": "home.lesson_words",
+        "pk": 27,
+        "fields": {
+            "lesson": 5,
+            "lesson_word_id": 2,
+            "word_AR": "الثقافة",
+            "word_RU": "Культура"
+        }
+    },
+    {
+        "model": "home.lesson_words",
+        "pk": 28,
+        "fields": {
+            "lesson": 5,
+            "lesson_word_id": 3,
+            "word_AR": "اللّاعب",
+            "word_RU": "игрок"
+        }
+    },
+    {
+        "model": "home.lesson_words",
+        "pk": 29,
+        "fields": {
+            "lesson": 5,
+            "lesson_word_id": 4,
+            "word_AR": "الْحب",
+            "word_RU": "любовь"
+        }
+    },
+    {
+        "model": "home.lesson_words",
+        "pk": 30,
+        "fields": {
+            "lesson": 5,
+            "lesson_word_id": 5,
+            "word_AR": "الْخير",
+            "word_RU": "добро"
+        }
+    },
+    {
+        "model": "home.lesson_words",
+        "pk": 31,
+        "fields": {
+            "lesson": 5,
+            "lesson_word_id": 6,
+            "word_AR": "الربح",
+            "word_RU": "прибыль"
+        }
+    },
+    {
+        "model": "home.lesson_words",
+        "pk": 32,
+        "fields": {
+            "lesson": 5,
+            "lesson_word_id": 7,
+            "word_AR": "الْعين",
+            "word_RU": "глаз"
+        }
+    },
+    {
+        "model": "home.lesson_words",
+        "pk": 33,
+        "fields": {
+            "lesson": 5,
+            "lesson_word_id": 8,
+            "word_AR": "الْفاكهة",
+            "word_RU": "фрукт"
+        }
+    },
+    {
+        "model": "home.lesson_words",
+        "pk": 34,
+        "fields": {
+            "lesson": 5,
+            "lesson_word_id": 9,
+            "word_AR": "الظلام",
+            "word_RU": "темно"
+        }
+    },
+    {
+        "model": "home.lesson_words",
+        "pk": 35,
+        "fields": {
+            "lesson": 5,
+            "lesson_word_id": 10,
+            "word_AR": "الْورد",
+            "word_RU": "Розы"
+        }
+    },
+    {
+        "model": "home.lesson_words",
+        "pk": 36,
+        "fields": {
+            "lesson": 5,
+            "lesson_word_id": 11,
+            "word_AR": "النار",
+            "word_RU": "огонь"
+        }
+    },
+    {
+        "model": "home.lesson_words",
+        "pk": 37,
+        "fields": {
+            "lesson": 5,
+            "lesson_word_id": 12,
+            "word_AR": "الْيد",
+            "word_RU": "рука"
+        }
+    },
+    {
+        "model": "home.people_ask",
+        "pk": 2,
+        "fields": {
+            "question": "В чем сложность изучения арабского языка",
+            "answer": "<strong>Сложность арабского языка в том,</strong>  что в нем есть несколько групп звуков, которые для русского или европейского уха звучат практически одинаково. Например, в русском языке есть одна буква «С», а в арабском целых три буквы, схожие по звучанию с «С»."
+        }
+    },
+    {
+        "model": "home.people_ask",
+        "pk": 3,
+        "fields": {
+            "question": "Что сложнее русский или арабский",
+            "answer": "<strong>В соответствии с этим рейтингом,</strong> русский относится к группе «трудные языки», на его изучение требуется не менее 1100 часов, а самыми сложными языками для англоговорящих являются арабский, китайский, японский и корейский."
+        }
+    },
+    {
+        "model": "home.people_ask",
+        "pk": 4,
+        "fields": {
+            "question": "Сколько букв в арабском языке",
+            "answer": "<strong>Арабо-персидская письменность.</strong> Состоит из 28 букв и используется для письма справа налево. Происходит от набатейского письма, окончательно сложился в VI веке."
+        }
+    },
+    {
+        "model": "home.people_ask",
+        "pk": 5,
+        "fields": {
+            "question": "Что проще китайский или арабский",
+            "answer": "Если рассматривать только в контексте письменности, то, разумеется, арабский язык проще. Арабский алфавит содержит всего лишь 28 знаков, в то время, как китайский язык куда сложнее."
+        }
+    },
+    {
+        "model": "home.people_ask",
+        "pk": 6,
+        "fields": {
+            "question": "Сколько слов нужно знать чтобы говорить на арабском языке",
+            "answer": "Подобное число слов может показаться огромным и даже пугающим тому, кто начинает изучать арабский, но у нас для вас есть хорошие новости: вам нужно знать приблизительно 5% от общего числа слов, чтобы свободно говорить на арабском."
+        }
+    },
+    {
+        "model": "home.people_ask",
+        "pk": 7,
+        "fields": {
+            "question": "На каком языке говорят в Дубаи",
+            "answer": "<strong>арабский.</strong> Официальным языком Объединённых Арабских Эмиратов является арабский. Английский язык широко используется в сфере бизнеса, деловой переписки и как средство межнационального общения."
+        }
+    },
+    {
+        "model": "tests.quiz",
+        "pk": 1,
+        "fields": {
+            "quiz_name": "тест первого урока"
+        }
+    },
+    {
+        "model": "tests.quiz",
+        "pk": 2,
+        "fields": {
+            "quiz_name": "тест второго урока"
+        }
+    },
+    {
+        "model": "tests.quiz",
+        "pk": 3,
+        "fields": {
+            "quiz_name": "тест третьего урока"
+        }
+    },
+    {
+        "model": "tests.quiz",
+        "pk": 4,
+        "fields": {
+            "quiz_name": "тест четверього урока"
+        }
+    },
+    {
+        "model": "tests.quiz",
+        "pk": 5,
+        "fields": {
+            "quiz_name": "тест пятого урока"
+        }
+    },
+    {
+        "model": "tests.question",
+        "pk": 1,
+        "fields": {
+            "quiz": 1,
+            "question": "كيف يكتب حرف الباء في وسط الكلمة",
+            "marks": 5,
+            "discrption": "ـبـ"
+        }
+    },
+    {
+        "model": "tests.question",
+        "pk": 2,
+        "fields": {
+            "quiz": 1,
+            "question": "كيف يكتب حرف الجيم في بداية الكلمة",
+            "marks": 5,
+            "discrption": "ج"
+        }
+    },
+    {
+        "model": "tests.question",
+        "pk": 3,
+        "fields": {
+            "quiz": 2,
+            "question": "مااذا تعني \"هذا\"",
+            "marks": 5,
+            "discrption": "هذا"
+        }
+    },
+    {
+        "model": "tests.question",
+        "pk": 4,
+        "fields": {
+            "quiz": 2,
+            "question": "مااذا تعني \"ما هذا\"",
+            "marks": 5,
+            "discrption": "ما هذا"
+        }
+    },
+    {
+        "model": "tests.question",
+        "pk": 5,
+        "fields": {
+            "quiz": 2,
+            "question": "как будеет ручка по-арабски",
+            "marks": 5,
+            "discrption": "ручка"
+        }
+    },
+    {
+        "model": "tests.question",
+        "pk": 6,
+        "fields": {
+            "quiz": 2,
+            "question": "как будеет дверь по-арабски",
+            "marks": 5,
+            "discrption": "дверь"
+        }
+    },
+    {
+        "model": "tests.question",
+        "pk": 8,
+        "fields": {
+            "quiz": 2,
+            "question": "ماذا تعني كلمة \"тетрадь\" بالعربية",
+            "marks": 5,
+            "discrption": "тетрадь"
+        }
+    },
+    {
+        "model": "tests.question",
+        "pk": 9,
+        "fields": {
+            "quiz": 2,
+            "question": "مااذا تعني \"كرسي\"",
+            "marks": 5,
+            "discrption": "كرسي"
+        }
+    },
+    {
+        "model": "tests.question",
+        "pk": 10,
+        "fields": {
+            "quiz": 2,
+            "question": "как будеет \"Да\" по-арабски",
+            "marks": 5,
+            "discrption": "Да"
+        }
+    },
+    {
+        "model": "tests.question",
+        "pk": 11,
+        "fields": {
+            "quiz": 3,
+            "question": "\"هذه\" для какой род использваем",
+            "marks": 5,
+            "discrption": "هذه"
+        }
+    },
+    {
+        "model": "tests.question",
+        "pk": 12,
+        "fields": {
+            "quiz": 3,
+            "question": "مااذا تعني \"سيارة\"",
+            "marks": 5,
+            "discrption": "سيارة"
+        }
+    },
+    {
+        "model": "tests.question",
+        "pk": 13,
+        "fields": {
+            "quiz": 3,
+            "question": "как будеет \"стол\" по-арабски",
+            "marks": 5,
+            "discrption": "стол"
+        }
+    },
+    {
+        "model": "tests.question",
+        "pk": 14,
+        "fields": {
+            "quiz": 3,
+            "question": "как будеет школа по-арабски",
+            "marks": 5,
+            "discrption": "школа"
+        }
+    },
+    {
+        "model": "tests.question",
+        "pk": 15,
+        "fields": {
+            "quiz": 3,
+            "question": "مااذا تعني \"من هذا\"",
+            "marks": 5,
+            "discrption": "\"هذه\""
+        }
+    },
+    {
+        "model": "tests.question",
+        "pk": 16,
+        "fields": {
+            "quiz": 4,
+            "question": "как будеет студент по-арабски",
+            "marks": 5,
+            "discrption": "студент"
+        }
+    },
+    {
+        "model": "tests.question",
+        "pk": 17,
+        "fields": {
+            "quiz": 4,
+            "question": "как будеет университет по-арабски",
+            "marks": 5,
+            "discrption": "3"
+        }
+    },
+    {
+        "model": "tests.question",
+        "pk": 18,
+        "fields": {
+            "quiz": 4,
+            "question": "как будеет молоко по-арабски",
+            "marks": 5,
+            "discrption": "как будеет ручка по-арабский"
+        }
+    },
+    {
+        "model": "tests.question",
+        "pk": 19,
+        "fields": {
+            "quiz": 4,
+            "question": "как будеет сахар по-арабски",
+            "marks": 5,
+            "discrption": "как будеет ручка по-арабский"
+        }
+    },
+    {
+        "model": "tests.question",
+        "pk": 20,
+        "fields": {
+            "quiz": 4,
+            "question": "как будеет учитель по-арабски",
+            "marks": 5,
+            "discrption": "как будеет ручка по-арабский"
+        }
+    },
+    {
+        "model": "tests.question",
+        "pk": 21,
+        "fields": {
+            "quiz": 4,
+            "question": "как будеет дом по-арабски",
+            "marks": 5,
+            "discrption": "как будеет ручка по-арабский"
+        }
+    },
+    {
+        "model": "tests.question",
+        "pk": 22,
+        "fields": {
+            "quiz": 4,
+            "question": "مااذا تعني كلمة \"ملعب\"",
+            "marks": 5,
+            "discrption": "как будеет ручка по-арабский"
+        }
+    },
+    {
+        "model": "tests.question",
+        "pk": 23,
+        "fields": {
+            "quiz": 4,
+            "question": "مااذا تعني كلمة \"قط\"",
+            "marks": 5,
+            "discrption": "مااذا تعني كلمة \"ملعب\""
+        }
+    },
+    {
+        "model": "tests.question",
+        "pk": 24,
+        "fields": {
+            "quiz": 4,
+            "question": "مااذا تعني كلمة \"كلب\"",
+            "marks": 5,
+            "discrption": "مااذا تعني كلمة \"ملعب\""
+        }
+    },
+    {
+        "model": "tests.question",
+        "pk": 25,
+        "fields": {
+            "quiz": 4,
+            "question": "مااذا تعني كلمة \"مدرسة\"",
+            "marks": 5,
+            "discrption": "مااذا تعني كلمة \"ملعب\""
+        }
+    },
+    {
+        "model": "tests.question",
+        "pk": 26,
+        "fields": {
+            "quiz": 5,
+            "question": "как будеет Яблоки по-арабски",
+            "marks": 5,
+            "discrption": "Яблоки"
+        }
+    },
+    {
+        "model": "tests.question",
+        "pk": 27,
+        "fields": {
+            "quiz": 5,
+            "question": "как будеет любовь по-арабски",
+            "marks": 5,
+            "discrption": "любовь"
+        }
+    },
+    {
+        "model": "tests.question",
+        "pk": 28,
+        "fields": {
+            "quiz": 5,
+            "question": "как будеет Розы по-арабски",
+            "marks": 5,
+            "discrption": "Розы"
+        }
+    },
+    {
+        "model": "tests.question",
+        "pk": 29,
+        "fields": {
+            "quiz": 5,
+            "question": "как будеет Культура по-арабски",
+            "marks": 5,
+            "discrption": "Культура"
+        }
+    },
+    {
+        "model": "tests.question",
+        "pk": 30,
+        "fields": {
+            "quiz": 5,
+            "question": "как будеет фрукт по-арабски",
+            "marks": 5,
+            "discrption": "фрукт"
+        }
+    },
+    {
+        "model": "tests.question",
+        "pk": 31,
+        "fields": {
+            "quiz": 5,
+            "question": "ماذا تعني كلمة \"النار\" بالعربية",
+            "marks": 5,
+            "discrption": "огонь"
+        }
+    },
+    {
+        "model": "tests.question",
+        "pk": 33,
+        "fields": {
+            "quiz": 5,
+            "question": "ما نوع ال في كلمة الشَّمس",
+            "marks": 5,
+            "discrption": "الشَّمس"
+        }
+    },
+    {
+        "model": "tests.question",
+        "pk": 35,
+        "fields": {
+            "quiz": 5,
+            "question": "ماذا تعني كلمة \"глаз\" بالعربية",
+            "marks": 5,
+            "discrption": "الْعين"
+        }
+    },
+    {
+        "model": "tests.question",
+        "pk": 36,
+        "fields": {
+            "quiz": 5,
+            "question": "ماذا تعني كلمة \"добро\" بالعربية",
+            "marks": 5,
+            "discrption": "добро"
+        }
+    },
+    {
+        "model": "tests.question",
+        "pk": 37,
+        "fields": {
+            "quiz": 5,
+            "question": "ماذا تعني كلمة \"игрок\" بالعربية",
+            "marks": 5,
+            "discrption": "игрок"
+        }
+    },
+    {
+        "model": "tests.question",
+        "pk": 38,
+        "fields": {
+            "quiz": 5,
+            "question": "выбирите солнечную Л",
+            "marks": 5,
+            "discrption": "солнечную"
+        }
+    },
+    {
+        "model": "tests.question",
+        "pk": 39,
+        "fields": {
+            "quiz": 5,
+            "question": "выбирите солнечную Л",
+            "marks": 5,
+            "discrption": "солнечную"
+        }
+    },
+    {
+        "model": "tests.question",
+        "pk": 40,
+        "fields": {
+            "quiz": 5,
+            "question": "выбирите лунные Л",
+            "marks": 5,
+            "discrption": "лунные"
+        }
+    },
+    {
+        "model": "tests.question",
+        "pk": 41,
+        "fields": {
+            "quiz": 5,
+            "question": "выбирите лунные Л",
+            "marks": 5,
+            "discrption": "выбирите лунные Л"
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 1,
+        "fields": {
+            "question": 1,
+            "answer": "ب",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 2,
+        "fields": {
+            "question": 1,
+            "answer": "ـبـ",
+            "is_correct": true
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 3,
+        "fields": {
+            "question": 1,
+            "answer": "بـ",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 4,
+        "fields": {
+            "question": 2,
+            "answer": "جـ",
+            "is_correct": true
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 5,
+        "fields": {
+            "question": 2,
+            "answer": "ـجـ",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 6,
+        "fields": {
+            "question": 2,
+            "answer": "ج",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 7,
+        "fields": {
+            "question": 3,
+            "answer": "привет",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 8,
+        "fields": {
+            "question": 3,
+            "answer": "это",
+            "is_correct": true
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 9,
+        "fields": {
+            "question": 3,
+            "answer": "пока",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 10,
+        "fields": {
+            "question": 4,
+            "answer": "что это",
+            "is_correct": true
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 11,
+        "fields": {
+            "question": 4,
+            "answer": "кто это",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 12,
+        "fields": {
+            "question": 4,
+            "answer": "кому",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 13,
+        "fields": {
+            "question": 5,
+            "answer": "ضوء",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 14,
+        "fields": {
+            "question": 5,
+            "answer": "بحر",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 15,
+        "fields": {
+            "question": 5,
+            "answer": "قلم",
+            "is_correct": true
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 16,
+        "fields": {
+            "question": 6,
+            "answer": "تلميذ",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 17,
+        "fields": {
+            "question": 6,
+            "answer": "باب",
+            "is_correct": true
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 18,
+        "fields": {
+            "question": 6,
+            "answer": "صف",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 22,
+        "fields": {
+            "question": 2,
+            "answer": "أ",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 23,
+        "fields": {
+            "question": 8,
+            "answer": "دفتر",
+            "is_correct": true
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 24,
+        "fields": {
+            "question": 8,
+            "answer": "كاسة",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 25,
+        "fields": {
+            "question": 8,
+            "answer": "طريق",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 26,
+        "fields": {
+            "question": 9,
+            "answer": "стул",
+            "is_correct": true
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 27,
+        "fields": {
+            "question": 9,
+            "answer": "стена",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 28,
+        "fields": {
+            "question": 9,
+            "answer": "лампа",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 29,
+        "fields": {
+            "question": 10,
+            "answer": "نعم",
+            "is_correct": true
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 30,
+        "fields": {
+            "question": 10,
+            "answer": "لا",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 31,
+        "fields": {
+            "question": 10,
+            "answer": "ربما",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 32,
+        "fields": {
+            "question": 11,
+            "answer": "можской род",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 33,
+        "fields": {
+            "question": 11,
+            "answer": "женской род",
+            "is_correct": true
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 34,
+        "fields": {
+            "question": 12,
+            "answer": "машина",
+            "is_correct": true
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 35,
+        "fields": {
+            "question": 12,
+            "answer": "автобус",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 36,
+        "fields": {
+            "question": 12,
+            "answer": "самолет",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 37,
+        "fields": {
+            "question": 12,
+            "answer": "мяч",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 38,
+        "fields": {
+            "question": 13,
+            "answer": "دراجة",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 39,
+        "fields": {
+            "question": 13,
+            "answer": "ساعة",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 40,
+        "fields": {
+            "question": 13,
+            "answer": "طاولة",
+            "is_correct": true
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 41,
+        "fields": {
+            "question": 14,
+            "answer": "جامعة",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 42,
+        "fields": {
+            "question": 14,
+            "answer": "مدرسة",
+            "is_correct": true
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 43,
+        "fields": {
+            "question": 14,
+            "answer": "بيت",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 44,
+        "fields": {
+            "question": 15,
+            "answer": "это наташа",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 45,
+        "fields": {
+            "question": 15,
+            "answer": "привет",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 46,
+        "fields": {
+            "question": 15,
+            "answer": "кто это",
+            "is_correct": true
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 47,
+        "fields": {
+            "question": 16,
+            "answer": "مدير",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 48,
+        "fields": {
+            "question": 16,
+            "answer": "تلميذة",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 49,
+        "fields": {
+            "question": 16,
+            "answer": "طالب",
+            "is_correct": true
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 50,
+        "fields": {
+            "question": 17,
+            "answer": "جامعة",
+            "is_correct": true
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 51,
+        "fields": {
+            "question": 17,
+            "answer": "مدرسة",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 52,
+        "fields": {
+            "question": 17,
+            "answer": "جامع",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 53,
+        "fields": {
+            "question": 18,
+            "answer": "حليب",
+            "is_correct": true
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 54,
+        "fields": {
+            "question": 18,
+            "answer": "قهوة",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 55,
+        "fields": {
+            "question": 18,
+            "answer": "قلم",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 56,
+        "fields": {
+            "question": 19,
+            "answer": "سكر",
+            "is_correct": true
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 57,
+        "fields": {
+            "question": 19,
+            "answer": "فلم",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 58,
+        "fields": {
+            "question": 19,
+            "answer": "جبل",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 59,
+        "fields": {
+            "question": 20,
+            "answer": "استاذ",
+            "is_correct": true
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 60,
+        "fields": {
+            "question": 20,
+            "answer": "قفل",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 61,
+        "fields": {
+            "question": 20,
+            "answer": "باب",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 62,
+        "fields": {
+            "question": 21,
+            "answer": "بيت",
+            "is_correct": true
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 63,
+        "fields": {
+            "question": 21,
+            "answer": "سيارة",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 64,
+        "fields": {
+            "question": 21,
+            "answer": "سفينة",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 65,
+        "fields": {
+            "question": 22,
+            "answer": "ручка",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 66,
+        "fields": {
+            "question": 22,
+            "answer": "дверь",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 67,
+        "fields": {
+            "question": 22,
+            "answer": "стадион",
+            "is_correct": true
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 68,
+        "fields": {
+            "question": 23,
+            "answer": "кот",
+            "is_correct": true
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 69,
+        "fields": {
+            "question": 23,
+            "answer": "стол",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 70,
+        "fields": {
+            "question": 23,
+            "answer": "стул",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 71,
+        "fields": {
+            "question": 24,
+            "answer": "птица",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 72,
+        "fields": {
+            "question": 24,
+            "answer": "лев",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 73,
+        "fields": {
+            "question": 24,
+            "answer": "собака",
+            "is_correct": true
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 74,
+        "fields": {
+            "question": 25,
+            "answer": "школа",
+            "is_correct": true
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 75,
+        "fields": {
+            "question": 25,
+            "answer": "город",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 76,
+        "fields": {
+            "question": 25,
+            "answer": "район",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 77,
+        "fields": {
+            "question": 26,
+            "answer": "النار",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 78,
+        "fields": {
+            "question": 26,
+            "answer": "التفاح",
+            "is_correct": true
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 79,
+        "fields": {
+            "question": 26,
+            "answer": "حوت",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 80,
+        "fields": {
+            "question": 27,
+            "answer": "الْحب",
+            "is_correct": true
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 81,
+        "fields": {
+            "question": 27,
+            "answer": "الْيد",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 82,
+        "fields": {
+            "question": 27,
+            "answer": "أنف",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 83,
+        "fields": {
+            "question": 28,
+            "answer": "الْورد",
+            "is_correct": true
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 84,
+        "fields": {
+            "question": 28,
+            "answer": "البحر",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 85,
+        "fields": {
+            "question": 28,
+            "answer": "النهر",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 86,
+        "fields": {
+            "question": 29,
+            "answer": "الثقافة",
+            "is_correct": true
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 87,
+        "fields": {
+            "question": 29,
+            "answer": "الْخير",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 88,
+        "fields": {
+            "question": 29,
+            "answer": "قلم",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 89,
+        "fields": {
+            "question": 30,
+            "answer": "الْفاكهة",
+            "is_correct": true
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 90,
+        "fields": {
+            "question": 30,
+            "answer": "حليب",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 91,
+        "fields": {
+            "question": 30,
+            "answer": "تفاح",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 92,
+        "fields": {
+            "question": 31,
+            "answer": "огонь",
+            "is_correct": true
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 93,
+        "fields": {
+            "question": 31,
+            "answer": "темно",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 94,
+        "fields": {
+            "question": 31,
+            "answer": "фрукт",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 97,
+        "fields": {
+            "question": 33,
+            "answer": "солнечные",
+            "is_correct": true
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 98,
+        "fields": {
+            "question": 33,
+            "answer": "лунные",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 101,
+        "fields": {
+            "question": 35,
+            "answer": "الْعين",
+            "is_correct": true
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 102,
+        "fields": {
+            "question": 35,
+            "answer": "الأنف",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 103,
+        "fields": {
+            "question": 35,
+            "answer": "الأذن",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 104,
+        "fields": {
+            "question": 36,
+            "answer": "الْخير",
+            "is_correct": true
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 105,
+        "fields": {
+            "question": 36,
+            "answer": "الشر",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 106,
+        "fields": {
+            "question": 36,
+            "answer": "الموت",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 107,
+        "fields": {
+            "question": 37,
+            "answer": "اللّاعب",
+            "is_correct": true
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 108,
+        "fields": {
+            "question": 37,
+            "answer": "طبيب",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 109,
+        "fields": {
+            "question": 37,
+            "answer": "المهندس",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 110,
+        "fields": {
+            "question": 38,
+            "answer": "الذَّرَّة",
+            "is_correct": true
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 111,
+        "fields": {
+            "question": 38,
+            "answer": "ذَّرَّة",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 112,
+        "fields": {
+            "question": 38,
+            "answer": "حب",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 113,
+        "fields": {
+            "question": 39,
+            "answer": "الربح",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 114,
+        "fields": {
+            "question": 39,
+            "answer": "الْغرب",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 115,
+        "fields": {
+            "question": 39,
+            "answer": "الْهاتف",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 116,
+        "fields": {
+            "question": 40,
+            "answer": "الْباب",
+            "is_correct": true
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 117,
+        "fields": {
+            "question": 40,
+            "answer": "الدرج",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 118,
+        "fields": {
+            "question": 40,
+            "answer": "السيارة",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 119,
+        "fields": {
+            "question": 41,
+            "answer": "الماء",
+            "is_correct": true
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 120,
+        "fields": {
+            "question": 41,
+            "answer": "النور",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.answer",
+        "pk": 121,
+        "fields": {
+            "question": 41,
+            "answer": "التراب",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "tests.quiz_words",
+        "pk": 1,
+        "fields": {
+            "quiz": 1,
+            "quiz_word_id": 1,
+            "word_AR": "كيف",
+            "word_RU": "как"
+        }
+    },
+    {
+        "model": "tests.quiz_words",
+        "pk": 2,
+        "fields": {
+            "quiz": 1,
+            "quiz_word_id": 2,
+            "word_AR": "حرف",
+            "word_RU": "буква"
+        }
+    },
+    {
+        "model": "tests.quiz_words",
+        "pk": 3,
+        "fields": {
+            "quiz": 1,
+            "quiz_word_id": 3,
+            "word_AR": "يكتب",
+            "word_RU": "писат"
+        }
+    },
+    {
+        "model": "tests.quiz_words",
+        "pk": 4,
+        "fields": {
+            "quiz": 1,
+            "quiz_word_id": 4,
+            "word_AR": "في",
+            "word_RU": "в"
+        }
+    },
+    {
+        "model": "tests.quiz_words",
+        "pk": 5,
+        "fields": {
+            "quiz": 2,
+            "quiz_word_id": 1,
+            "word_AR": "بالعربية",
+            "word_RU": "по-арабский"
+        }
+    },
+    {
+        "model": "tests.quiz_words",
+        "pk": 6,
+        "fields": {
+            "quiz": 2,
+            "quiz_word_id": 2,
+            "word_AR": "كلمة",
+            "word_RU": "слово"
+        }
+    },
+    {
+        "model": "tests.quiz_words",
+        "pk": 7,
+        "fields": {
+            "quiz": 4,
+            "quiz_word_id": 1,
+            "word_AR": "الجبال",
+            "word_RU": "горы"
+        }
+    },
+    {
+        "model": "tests.quiz_words",
+        "pk": 8,
+        "fields": {
+            "quiz": 4,
+            "quiz_word_id": 2,
+            "word_AR": "فلم",
+            "word_RU": "фильм"
+        }
+    },
+    {
+        "model": "tests.quiz_words",
+        "pk": 9,
+        "fields": {
+            "quiz": 4,
+            "quiz_word_id": 3,
+            "word_AR": "قهوة",
+            "word_RU": "кофе"
+        }
+    },
+    {
+        "model": "tests.quiz_words",
+        "pk": 10,
+        "fields": {
+            "quiz": 4,
+            "quiz_word_id": 4,
+            "word_AR": "مدير",
+            "word_RU": "директор"
+        }
+    },
+    {
+        "model": "tests.quiz_words",
+        "pk": 11,
+        "fields": {
+            "quiz": 4,
+            "quiz_word_id": 5,
+            "word_AR": "قفل",
+            "word_RU": "замок"
+        }
+    },
+    {
+        "model": "tests.quiz_words",
+        "pk": 12,
+        "fields": {
+            "quiz": 4,
+            "quiz_word_id": 6,
+            "word_AR": "سفينة",
+            "word_RU": "корабль"
+        }
+    },
+    {
+        "model": "tests.quiz_words",
+        "pk": 13,
+        "fields": {
+            "quiz": 5,
+            "quiz_word_id": 1,
+            "word_AR": "نوع",
+            "word_RU": "вид"
+        }
+    },
+    {
+        "model": "story.story",
+        "pk": 3,
+        "fields": {
+            "title": "قصة القِطُ الجَائِع",
+            "image": "story/images/story_1.jpeg",
+            "audio": "story/audios/Al_Shami_-_Ya_Leil_W_Yal_Ein_Official_Music_Video_2023___الشامي_-_يا_ليل_وي_J9tLLDo.mp3"
+        }
+    },
+    {
+        "model": "story.story",
+        "pk": 4,
+        "fields": {
+            "title": "تويتي الطائر الصغير",
+            "image": "",
+            "audio": ""
+        }
+    },
+    {
+        "model": "story.parargraph",
+        "pk": 5,
+        "fields": {
+            "story": 3,
+            "section": "كَانَ فَتًى يَدْعَى أَحْمَدُ يَعِيْشُ فِي قَرْيَةٍ صَغِيْرَةٍ. كَانَ أَحْمَدُ يُحِبُّ الْحَيَوَانَاتِ كَثِيْرًا، وَخَاصَّةً الْقَطَطِ. كَانَ لَدَيْهِ قَطٌّ يُدْعَى بُنْدُق، كَانَ الْقَطُّ مَحِبًّا لِلْعَبِ وَالْمُرَحِ."
+        }
+    },
+    {
+        "model": "story.parargraph",
+        "pk": 6,
+        "fields": {
+            "story": 3,
+            "section": "فِي يَوْمٍ مَا، كَانَ أَحْمَدُ يَلْعَبُ فِي الْحَدِيْقَةِ مَعَ بُنْدُق . فَجَأَةً، شَاهَدُوا قَطًّا آخَرَ يَتَجَوَّلُ فِي الْحَدِيْقَةِ وَيَنْظُرُ إِلَيْهِمْ. كَانَ الْقَطُّ الآخَرُ جَائِعًا وأَصْدَر مُواء بِصَوْتٍ عَالِي يُشَبِّهُ الْنَّدَاءَ لِلْمَسَاعِدَةِ."
+        }
+    },
+    {
+        "model": "story.parargraph",
+        "pk": 7,
+        "fields": {
+            "story": 3,
+            "section": "شَعَرَ أَحْمَدُ بِالْقَلَقِ لِأَنَّ الْقَطَّ الْجَائِعَ بِحَاجَةٍ إِلَى الْمَسَاعِدَةِ. فَسَارَعَ أَحْمَدُ إِلَى الْمَنْزِلِ وَأَحْضَرَ بَعْضَ اللَّحْمِ وَالْمَاءِ لِيُطْعِمَ الْقَطَّ الْجَائِعَ. وَعِنْدَمَا وَضَعَ اللَّحْمَ وَالْمَاءَ لِلْقَطِّ الْجَائِعِ، جَاءَ الْقَطُّ وَأَكَلَ اللَّحْمَ وَشَرِبَ الْمَاءَ وَأَظْهَرَ لِأَحْمَدِ امْتِنَانَهُ."
+        }
+    },
+    {
+        "model": "story.parargraph",
+        "pk": 8,
+        "fields": {
+            "story": 3,
+            "section": "وَمِنْذُ ذَلِكَ الْحِيْنِ، كَانَ الْقَطُّ الْجَائِعُ يَزُوْرُ أَحْمَدَ كُلَّ يَوْمٍ وَيُظْهِرُ لَهُ مَدَى شُكْرِهِ وَامْتِنَانِهِ."
+        }
+    },
+    {
+        "model": "story.parargraph",
+        "pk": 9,
+        "fields": {
+            "story": 3,
+            "section": "وَكَانَتْ هَذِهِ الْقِصَّةُ تُظْهِرُ لِلْأَطْفَالِ قِيَمَةَ الرَّحْمَةِ وَالْعَطَاءِ وَالْمَحَبَّةِ بَيْنَ الْإِنْسَانِ وَالْحَيَوَانِ."
+        }
+    },
+    {
+        "model": "story.parargraph",
+        "pk": 10,
+        "fields": {
+            "story": 4,
+            "section": "كَانَ هُنَاكَ ذَاتَ مَرَّةٍ طَائِرٌ صَغِيرٌ يَدْعَى تُوِيتِي. كَانَ تُوِيتِي يَحُلُمُ بِأَنْ يَكُونَ طَائِرًا كَبِيرًا وَقُوِيًّا، مِثْلَ النَّسْرِ الْعَظِيمِ. لَكِنَّهُ كَانَ صَغِيرًا جِدًّا وَضَعِيفًا، وَكَانَ يَشْعُرُ بِالْحُزْنِ لِأَنَّهُ لَا يَسْتَطِيعُ الطَّيْرَانَ بَعِيدًا مِثْلَ الطَّيْورِ الْأُخْرَى."
+        }
+    },
+    {
+        "model": "story.parargraph",
+        "pk": 11,
+        "fields": {
+            "story": 4,
+            "section": "فِي يَوْمٍ مِنَ الْأَيَّامِ، قَامَ تُوِيتِي بِمُحَاوَلَةِ الطَّيْرَانِ مِنْ فَوْقِ شَجَرَةٍ عَالِيَّةٍ، لَكِنَّهُ سَقَطَ عَلَى الْأَرْضِ وَأُصِيبَ بِجُرُوحٍ خَطِيرَةٍ. وَجَاءَتْ طِيَرٌ أُخْرَى لِمُسَاعَدَتِهِ، بَيْنَمَا كَانَ النَّسْرُ الْعَظِيمُ يُرَاقِبُ الْأَمْرَ مِنْ بَعِيدٍ."
+        }
+    },
+    {
+        "model": "story.parargraph",
+        "pk": 12,
+        "fields": {
+            "story": 4,
+            "section": "وَبَعْدَمَا تَعَافَى تُوِيتِي مِنْ جُرُوحِهِ، قَرَّرَ النَّسْرُ الْعَظِيمُ تَعْلِيمَهُ كَيْفِيَّةَ الطَّيْرَانِ بِطَرِيقَةِ صَحِيحَةٍ. وَقَضَى النَّسْرُ الْعَظِيمُ الْكَثِيرَ مِنَ الْوَقْتِ يُشَرِّحُ لِتُوِيتِي كَيْفِيَّةَ اِسْتِخْدَامِ أَجْنِحَتِهِ لِلطَّيْرَانِ."
+        }
+    },
+    {
+        "model": "story.parargraph",
+        "pk": 13,
+        "fields": {
+            "story": 4,
+            "section": "وَبِفَضْلِ تَعْلِيمَاتِ النَّسْرِ الْعَظِيمِ، تَمَكَّنَ تُوِيتِي أَخِيرًا مِنَ الطَّيْرَانِ عَالِيًّا فِي السَّمَاءِ، وَأَصْبَحَ طَائِرًا قُوِيًّا وَسَعِيدًا."
+        }
+    }
+]
