@@ -26,7 +26,8 @@
           <div class="card-body">
             <h5 class="card-title text-success"> {{lesson.name}}</h5>
             <p class="card-text"> {{lesson.description |slice:35  | markdown |safe}}</p>
-            <a href="{% url 'detail_page' lesson.id %}" class="btn btn-success">ابدء الدرس</a>
+
+            <a href="{% url 'detail_page' lesson.id %}" class="btn btn-success ">ابدء الدرس</a>  <!-- disabled -->
           </div>
 
       </div>

@@ -15,11 +15,10 @@
         <link rel="stylesheet" href="{% static 'css/mystyle.css'%}">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
-
-
-
-
         <title>{% block title %}home{% endblock title %}</title>
+        <link rel="icon" href="{% static 'img/bachelor.png' %}">
+
+
 </head>
 <body data-bs-theme="dark">
     <header class="mb-4 text-center bg-image header-image">
@@ -41,7 +40,8 @@
                                 {{request.user}}
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="{% url 'logout' %}">Logout</a></li>
+                                <li><a class="dropdown-item text-center" href="{% url 'logout' %}">Logout</a></li>
+                                <li><a class="dropdown-item text-center" href="#"> {{request.user}}</a></li>
                             </ul>
                         </li> 
                         {% else %}
@@ -136,44 +136,7 @@
                 ></a>
             </section>
             <!-- Section: Social media -->
-        
-            <!-- Section: Form -->
-            {% comment %} <section class="">
-                <form action="">
-                    <!--Grid row-->
-                    <div class="row d-flex justify-content-center">
-                        <!--Grid column-->
-                        <div class="col-auto">
-                            <p class="pt-2">
-                                <strong>Sign up for our newsletter</strong>
-                            </p>
-                        </div>
-                        <!--Grid column-->
-            
-                        <!--Grid column-->
-                        <div class="col-md-5 col-12">
-                            <!-- Email input -->
-                            <div class="form-outline form-white mb-4">
-                                <input type="email" id="form5Example21" class="form-control" />
-                                <label class="form-label" for="form5Example21">Email address</label>
-                            </div>
-                        </div>
-                        <!--Grid column-->
-            
-                        <!--Grid column-->
-                            <div class="col-auto">
-                                <!-- Submit button -->
-                                <button type="submit" class="btn btn-outline-light mb-4">
-                                    Subscribe
-                                </button>
-                            </div> 
-                        <!--Grid column-->
-                    </div>
-                    <!--Grid row-->
-                </form>
-            </section> {% endcomment %}
-            <!-- Section: Form -->
-        
+
             <!-- Section: Text -->
             <section class="mb-4">
                 <p>
@@ -184,97 +147,6 @@
             </section>
             <!-- Section: Text -->
         
-            <!-- Section: Links -->
-            {% comment %} <section class="">
-                <!--Grid row-->
-                <div class="row">
-                <!--Grid column-->
-                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                    <h5 class="text-uppercase">Links</h5>
-        
-                    <ul class="list-unstyled mb-0">
-                    <li>
-                        <a href="#!" class="text-white">Link 1</a>
-                    </li>
-                    <li>
-                        <a href="#!" class="text-white">Link 2</a>
-                    </li>
-                    <li>
-                        <a href="#!" class="text-white">Link 3</a>
-                    </li>
-                    <li>
-                        <a href="#!" class="text-white">Link 4</a>
-                    </li>
-                    </ul>
-                </div>
-                <!--Grid column-->
-        
-                <!--Grid column-->
-                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                    <h5 class="text-uppercase">Links</h5>
-        
-                    <ul class="list-unstyled mb-0">
-                    <li>
-                        <a href="#!" class="text-white">Link 1</a>
-                    </li>
-                    <li>
-                        <a href="#!" class="text-white">Link 2</a>
-                    </li>
-                    <li>
-                        <a href="#!" class="text-white">Link 3</a>
-                    </li>
-                    <li>
-                        <a href="#!" class="text-white">Link 4</a>
-                    </li>
-                    </ul>
-                </div>
-                <!--Grid column-->
-        
-                <!--Grid column-->
-                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                    <h5 class="text-uppercase">Links</h5>
-        
-                    <ul class="list-unstyled mb-0">
-                    <li>
-                        <a href="#!" class="text-white">Link 1</a>
-                    </li>
-                    <li>
-                        <a href="#!" class="text-white">Link 2</a>
-                    </li>
-                    <li>
-                        <a href="#!" class="text-white">Link 3</a>
-                    </li>
-                    <li>
-                        <a href="#!" class="text-white">Link 4</a>
-                    </li>
-                    </ul>
-                </div>
-                <!--Grid column-->
-        
-                <!--Grid column-->
-                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                    <h5 class="text-uppercase">Links</h5>
-        
-                    <ul class="list-unstyled mb-0">
-                    <li>
-                        <a href="#!" class="text-white">Link 1</a>
-                    </li>
-                    <li>
-                        <a href="#!" class="text-white">Link 2</a>
-                    </li>
-                    <li>
-                        <a href="#!" class="text-white">Link 3</a>
-                    </li>
-                    <li>
-                        <a href="#!" class="text-white">Link 4</a>
-                    </li>
-                    </ul>
-                </div>
-                <!--Grid column-->
-                </div>
-                <!--Grid row-->
-            </section> {% endcomment %}
-            <!-- Section: Links -->
         </div>
         <!-- Grid container -->
 
@@ -288,6 +160,15 @@
 
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
+        <!-- play audio -->
+        <script>
+            function play(id) {
+                var audio = document.getElementById(id);
+                audio.play();
+            }
+        </script>
+
+        
         <!-- Option 2: Separate Popper and Bootstrap JS -->
         <!--
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>

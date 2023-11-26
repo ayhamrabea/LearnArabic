@@ -2,7 +2,6 @@ import os
 from django.shortcuts import render , redirect
 from .models import Lesson , Said_question , Lesson_words , People_Ask
 import random
-import pyttsx3
 
 # Create your views here.
 

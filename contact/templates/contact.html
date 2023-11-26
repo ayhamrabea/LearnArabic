@@ -10,7 +10,7 @@
         <div class="col-lg-8" data-bs-theme="dark" >
             <section class="py-5" style="background-color: #343a3f;">
                 <div class="section-title text-center">
-                    <h1 class="text-primary ">КОНТАКТЫ</h1>
+                    <h1 class="text-success ">КОНТАКТЫ</h1>
                     {% comment %} <h2 class="display-9 mb-4">test</h2> {% endcomment %}
                 </div>
 
@@ -36,7 +36,7 @@
                             </div>
                             <div class="col-12">
                                 {% comment %} <input type="text" class="form-control border-0 bg-light px-4" placeholder="Subject" style="height: 55px;"> {% endcomment %}
-                                <button class="btn btn-primary w-100 py-1 fs-2" type="submit">أرسال</button>
+                                <button class="btn btn-outline-success w-100 py-1 fs-2" type="submit">أرسال</button>
                             </div>
                         </div>
                     </form>
@@ -59,29 +59,65 @@
                             <tr>
                                 <th scope="col">#</th>
                                 <th scope="col">Арабский</th>
-                                <th scope="col">руский</th>
+                                <th scope="col"></th>
+                                <th scope="col">русский</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <th scope="row">1</th>
                                 <td>الأسم</td> 
+                                <td scope="col">
+                                    <button class="btn btn-outline-success border-0" onclick="play('Имя')">
+                                        <i class="fa-solid fa-play"></i>
+                                    </button>
+                                    <audio id="Имя" src="{% static 'audios/contact/name.mp3' %}"></audio>
+                                </td>
                                 <td>Имя</td>
-                            </tr>
+                            </tr> 
                             <tr>
                                 <th scope="row">2</th>
                                 <td>بريدك الألكتروني</td> 
-                                <td>ваш почта</td>
+                                <td scope="col">
+                                    <button class="btn btn-outline-success border-0" onclick="play('почта')">
+                                        <i class="fa-solid fa-play"></i>
+                                    </button>
+                                    <audio id="почта" src="{% static 'audios/contact/email.mp3' %}"></audio>
+                                </td>
+                                <td>Твоя почта</td>
                             </tr>
                             <tr>
                                 <th scope="row">3</th>
                                 <td>الموضوع</td> 
+                                <td scope="col">
+                                    <button class="btn btn-outline-success border-0" onclick="play('тема')">
+                                        <i class="fa-solid fa-play"></i>
+                                    </button>
+                                    <audio id="тема" src="{% static 'audios/contact/tema.mp3' %}"></audio>
+                                </td>
                                 <td>тема</td>
                             </tr>
                             <tr>
                                 <th scope="row">4</th>
                                 <td>الرسالة</td> 
-                                <td>сообшение</td>
+                                <td scope="col">
+                                    <button class="btn btn-outline-success border-0" onclick="play('сообщение')">
+                                        <i class="fa-solid fa-play"></i>
+                                    </button>
+                                    <audio id="сообщение" src="{% static 'audios/contact/message.mp3' %}"></audio>
+                                </td>
+                                <td>сообщение</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">5</th>
+                                <td>أرسال</td> 
+                                <td scope="col">
+                                    <button class="btn btn-outline-success border-0" onclick="play('отправить')">
+                                        <i class="fa-solid fa-play"></i>
+                                    </button>
+                                    <audio id="отправить" src="{% static 'audios/contact/send.mp3' %}"></audio>
+                                </td>
+                                <td>отправить</td>
                             </tr>
                         </tbody>
                     </table>
@@ -107,3 +143,12 @@
 </main>
 
 {% endblock body %}
+
+
+
+
+
+
+
+
+

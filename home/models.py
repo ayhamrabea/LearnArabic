@@ -12,6 +12,7 @@ class Lesson(models.Model):
     leavel = models.CharField(max_length=50, blank=True, null=True)
     active = models.BooleanField(default=False, blank=True, null=True)
     quiz = models.ForeignKey(Quiz,related_name='Lesson_Quiz', on_delete=models.CASCADE , default=1)
+    
 
     class Meta:
 
@@ -44,6 +45,7 @@ class Lesson_words(models.Model):
     lesson_word_id = models.IntegerField(default=99, blank=True, null=True)
     word_AR = models.CharField( max_length=50, blank=True, null=True)
     word_RU = models.CharField( max_length=50, blank=True, null=True)
+    # audio_file = models.FileField( upload_to =  'uploads/' , blank=True, null=True)
 
 
     class Meta:
