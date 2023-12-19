@@ -9,21 +9,21 @@
 <main class="container py-5">
     <div class="row">
 
-        <div class="col-lg-9" data-bs-theme="dark" >
+        <div class="col-lg-12" data-bs-theme="dark" >
             
             {% if story_id.image %}
             <img style="width: 400px;" src="{{story_id.image.url}}" />
             {% endif %}
 
-            {% comment %} {% if story_id.audio %}
-                <audio controls ><source src="{{story_id.audio.url}}" type="audio/ogg"></audio>            
-            {% endif %} {% endcomment %}
+            
 
                 
             {% for parargraph in parargraphs %}
             
-            <h3 class="p-3">{{parargraph.section}}<h3>
-
+            <h3 class="p-3 ">{{parargraph.section}}<h3>
+                {% if parargraph.audio %}
+                    <audio controls ><source src="{{parargraph.audio.url}}" type="audio/ogg"></audio>            
+                {% endif %}
             {% endfor %}
                 
 

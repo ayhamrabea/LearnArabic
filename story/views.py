@@ -8,7 +8,7 @@ def index(request):
     story = Story.objects.all()
 
     context = {
-        'stories' : story
+        'stories' : story,
     }
     return render(request,'story.html',context)
 

@@ -15,16 +15,17 @@
                 <div class="card-header">
                     <ul class="nav nav-tabs card-header-tabs">
                     <li class="nav-item d-flex">
-                        <a class="nav-link active" href="#">{{story.id}}</a>
-                    </li>
+                        {% comment %} <a class="nav-link active" href="#">{{story.id}}</a> {% endcomment %}
+                        <a class=" nav-link active" href="#">{{story.title}}</a>
+                    </li> 
                     </ul>
                 </div>
         
                 <div class="card-body">
-                    <h5 class="card-title"> {{story.title}}</h5>
-                    {% comment %} <p class="card-text"> {{lesson.description |slice:20  | markdown |safe}}</p>{% endcomment %}
-                    <a href="{% url 'show_story' story.id %}" class="btn btn-success">ابدء الدرس</a> 
-                </div>
+                    <h3 class="card-title text-success"> {{story.title}}</h3>
+                    <h4 class="card-text"> {{story.text}}</h4>
+                    <a href="{% url 'show_story' story.id %}" class="btn btn-success"> Читать </a> 
+                </div> 
         
                 </div> 
             {% endfor %}

@@ -6,7 +6,7 @@ class Story(models.Model):
 
     title = models.CharField(max_length=250)
     image = models.ImageField(upload_to='story/images',blank=True, null=True)
-    audio = models.FileField(upload_to='story/audios', blank=True, null=True)
+    text = models.CharField(max_length=250)
 
     class Meta:
 
@@ -21,6 +21,8 @@ class Parargraph(models.Model):
 
     story = models.ForeignKey(Story, on_delete=models.CASCADE)
     section = models.TextField()
+    audio = models.FileField(upload_to='story/audios', blank=True, null=True)         
+
     class Meta:
 
         verbose_name = 'Parargraph'

@@ -15,17 +15,21 @@
         <link rel="stylesheet" href="{% static 'css/mystyle.css'%}">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
-        <title>{% block title %}home{% endblock title %}</title>
+        <title>{% block title %}Арабский мир{% endblock title %}</title>
+        <meta name="description"  content="учить арабский язык">
+        <meta name="google-site-verification" content="4YAjDtNZMrSmfbXdfN2c63tMOeOt3W1reVmvSAVr1yA" />
         <link rel="icon" href="{% static 'img/bachelor.png' %}">
 
 
+
 </head>
-<body data-bs-theme="dark">
+<body data-bs-theme="dark" >
+    
     <header class="mb-4 text-center bg-image header-image">
 
         <nav class="navbar navbar-expand-lg bg-body-tertiary nav" data-bs-theme="dark">
             <div class="container">
-                <a class="navbar-brand" href="#">تعلم</a>
+                <a class="navbar-brand" href="{% url 'home' %}">تعلم</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -37,7 +41,7 @@
                         {% if user.is_authenticated  %}
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle link-success" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                {{request.user}}
+                                {{request.user}} 
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item text-center" href="{% url 'logout' %}">Logout</a></li>
@@ -56,19 +60,19 @@
                         </li> 
                         {% endif %}
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="{% url 'home' %}">الرئيسية</a>
+                            <a class="nav-link active" aria-current="page" href="{% url 'home' %}">Главная</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">الدروس</a>
+                            <a class="nav-link" href="{% url 'home' %}">уроки</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{% url 'quizes'%}">اختبارات</a>
+                            <a class="nav-link" href="{% url 'quizes'%}">Тесты</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{% url 'story' %}">قصص</a>
+                            <a class="nav-link" href="{% url 'story' %}">Сказкы</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{% url 'contact' %}">تواصل معنا</a>
+                            <a class="nav-link" href="{% url 'contact' %}"> Связь с нами </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link disabled" aria-disabled="true">Disabled</a>
@@ -76,8 +80,8 @@
                     </ul>
 
                     <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
+                        <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Search">
+                        <button class="btn btn-outline-success disabled" type="submit">Поиск</button>
                     </form>
                 </div>
             </div>

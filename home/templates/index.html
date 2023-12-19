@@ -12,25 +12,35 @@
     <div class="col-lg-7" data-bs-theme="dark" >
 
       {% for lesson in lessons %}
+      <div class="card text-center mb-5">
+        <div class="card-header">
+          <ul class="nav nav-tabs card-header-tabs">
+            <li class="nav-item d-flex">
+              
+              {% if lesson.active %}
+                <a class="nav-link active text-success" href="#">Доступен</a>
+              {% else %}
+                <a class="nav-link active" href="#">Не Доступен</a>
+              {% endif %}
+              <a class="nav-link disabled" href="#">{{lesson.leavel}}</a>
+            </li>
+          </ul>
+        </div>
 
-        <div class="card text-center mb-5">
-          <div class="card-header">
-            <ul class="nav nav-tabs card-header-tabs">
-              <li class="nav-item d-flex">
-                <a class="nav-link active" href="#">{{lesson.active}}</a>
-                <a class="nav-link disabled" href="#">{{lesson.leavel}}</a>
-              </li>
-            </ul>
-          </div>
+        <div class="card-body">
+          <h5 class="card-title text-success"> {{lesson.name}}</h5>
+          <p class="card-text"> {{lesson.description |slice:35  | markdown |safe}}</p>
+          {% if lesson.active %}
+            <a href="{% url 'detail_page' lesson.id %}" class="btn btn-success "> Начать урок </a>  <!-- disabled -->
+          {% else %}
+          <a href="{% url 'detail_page' lesson.id %}" class="btn btn-success disabled"> Начать урок </a>  <!-- disabled -->
+          {% endif %}
+        </div>
 
-          <div class="card-body">
-            <h5 class="card-title text-success"> {{lesson.name}}</h5>
-            <p class="card-text"> {{lesson.description |slice:35  | markdown |safe}}</p>
-
-            <a href="{% url 'detail_page' lesson.id %}" class="btn btn-success ">ابدء الدرس</a>  <!-- disabled -->
-          </div>
-
-      </div>
+    </div>
+      
+        
+      
 
       {% endfor %}
     </div>

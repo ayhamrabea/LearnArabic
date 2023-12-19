@@ -23,9 +23,9 @@
                 </div>
     
                 <div class="card-body">
-                <h5 class="card-title"> {{quize.quiz_name}}</h5>
+                <h5 class="card-title m-4"> {{quize.quiz_name}}</h5>
                 {% comment %} <p class="card-text"> {{lesson.description |slice:20  | markdown |safe}}</p> {% endcomment %}
-                <a href="{% url 'detail_quiz' quize.id %}" class="btn btn-success">ابدء الاختبار</a>
+                <a href="{% url 'detail_quiz' quize.id %}" class="btn btn-success"> Начать</a>
                 </div>
     
             </div>

@@ -24,8 +24,8 @@
                     <hr>        
                 </div>
                 <div>
-                    <button class="btn btn-outline-success p-2 m-3" onClick="app.showscore();">Show Score</button>
-                    <button class="btn btn-outline-warning p-2 m-3" onClick="window.location.reload();">Refresh</button>
+                    <button class="btn btn-outline-success p-2 m-3" onClick="app.showscore();">Показать результат</button>
+                    <button class="btn btn-outline-warning p-2 m-3" onClick="window.location.reload();">Обновить</button>
                     <p id="mytest"></p>
                 </div>
 
@@ -106,7 +106,7 @@
                 },
                 showscore(){
                     Swal.fire({
-                        title: 'your score is ' + score,
+                        title: ' Правелных ответов  ' + score + '/' + {{ questions|length }} ,
                         showClass: {
                             popup: 'animate__animated animate__fadeInDown'
                         },

@@ -10,7 +10,7 @@ class Lesson(models.Model):
     name = models.CharField(max_length=50, blank=True, null=True)
     description = models.TextField( blank=True, null=True)
     leavel = models.CharField(max_length=50, blank=True, null=True)
-    active = models.BooleanField(default=False, blank=True, null=True)
+    active = models.BooleanField(default=True, blank=True, null=True)
     quiz = models.ForeignKey(Quiz,related_name='Lesson_Quiz', on_delete=models.CASCADE , default=1)
     
 
