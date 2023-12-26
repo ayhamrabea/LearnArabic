@@ -10,7 +10,9 @@
         <div class="col-lg-8" data-bs-theme="dark" >
             {{lesson_id.description | markdown |safe}}
             
-            <a href="{% url 'detail_quiz' lesson_id.quiz.id %}" > <button class="btn btn-warning"> Начать тест</button> </a>
+            <a class="" href="{% url 'detail_quiz' lesson_id.quiz.id %}" >
+                <button class="btn btn-warning m-3 p-3"> Начать тест</button>
+            </a>
         </div>
 
         <!--START SideBAR-->
